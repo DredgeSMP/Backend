@@ -1,0 +1,41 @@
+{
+    "type": "origins:multiple",
+    "timer": {
+        "type": "origins:resource",
+        "min": 0,
+        "max": 20
+    },
+    "tick_timer": {
+        "type": "origins:action_over_time",
+        "interval": 1,
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "katyorigins:combat/anticipate_attack_timer",
+            "change": 1,
+            "operation": "add"
+        },
+        "falling_action": {
+            "type": "origins:change_resource",
+            "resource": "katyorigins:combat/anticipate_attack_timer",
+            "change": 0,
+            "operation": "set"
+        },
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:resource",
+                    "resource": "katyorigins:combat/anticipate_attack_timer",
+                    "comparison": "!=",
+                    "compare_to": 0
+                },
+                {
+                    "type": "origins:resource",
+                    "resource": "katyorigins:combat/anticipate_attack_timer",
+                    "comparison": "!=",
+                    "compare_to": 20
+                }
+            ]
+        }
+    }
+}

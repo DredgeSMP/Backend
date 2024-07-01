@@ -1,0 +1,151 @@
+{
+    "type": "origins:multiple",
+    "hidden": true,
+
+    "wishx": {
+        "type": "origins:resource",
+        "min": -1,
+        "max": 1,
+        "hud_render": {
+            "should_render": true
+        }
+    },
+
+    "wishz": {
+        "type": "origins:resource",
+        "min": -1,
+        "max": 1,
+        "hud_render": {
+            "should_render": true
+        }
+    },
+
+    "forward": {
+        "type": "origins:active_self",
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "katyorigins:wishdir_wishz",
+            "operation": "set",
+            "change": 1
+        },
+        "key": {
+            "key": "key.forward",
+            "continuous": true
+        }
+    },
+
+    "back": {
+        "type": "origins:active_self",
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "katyorigins:wishdir_wishz",
+            "operation": "set",
+            "change": -1
+        },
+        "key": {
+            "key": "key.back",
+            "continuous": true
+        }
+    },
+
+    "right": {
+        "type": "origins:active_self",
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "katyorigins:wishdir_wishx",
+            "operation": "set",
+            "change": -1
+        },
+        "key": {
+            "key": "key.right",
+            "continuous": true
+        }
+    },
+
+    "left": {
+        "type": "origins:active_self",
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "katyorigins:wishdir_wishx",
+            "operation": "set",
+            "change": 1
+        },
+        "key": {
+            "key": "key.left",
+            "continuous": true
+        }
+    },
+
+    "no_x": {
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "katyorigins:wishdir_wishx",
+            "operation": "set",
+            "change": 0
+        },
+        "interval": 1,
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "apugli:key_pressed",
+                    "key": {
+                        "key": "key.right",
+                        "continuous": true
+                    },
+                    "inverted": true
+                },
+                {
+                    "type": "apugli:key_pressed",
+                    "key": {
+                        "key": "key.left",
+                        "continuous": true
+                    },
+                    "inverted": true
+                }
+            ]
+        }
+    },
+
+    "no_z": {
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "katyorigins:wishdir_wishz",
+            "operation": "set",
+            "change": 0
+        },
+        "interval": 1,
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "apugli:key_pressed",
+                    "key": {
+                        "key": "key.forward",
+                        "continuous": true
+                    },
+                    "inverted": true
+                },
+                {
+                    "type": "apugli:key_pressed",
+                    "key": {
+                        "key": "key.back",
+                        "continuous": true
+                    },
+                    "inverted": true
+                }
+            ]
+        }
+    },
+
+    "wishdir_to_world_space": {
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:execute_command",
+            "command": "function katyorigins:wishdir_to_world_space"
+        },
+        "interval": 1
+    }   
+}

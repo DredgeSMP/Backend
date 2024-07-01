@@ -1,0 +1,11 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "architects_palette:warped_wood"
+      }
+    ],
+    "result": {
+      "item": "architects_palette:warped_planks"
+    }
+  }

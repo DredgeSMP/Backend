@@ -1,0 +1,12 @@
+{
+    "type": "origins:action_over_time",
+    "entity_action": {
+        "type": "origins:execute_command",
+        "command": "function katyorigins:calc_velocity"
+    },
+    "condition": {
+        "type": "origins:creative_flying",
+        "inverted": true
+    },
+    "interval": 2
+}
