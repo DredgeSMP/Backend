@@ -29,47 +29,38 @@
         "inverted": true
       },
       "if_action": {
-            "type": "origins:raycast",
-            "distance": 4,
-            "shape_type": "outline",
-            "fluid_handling": "none",
-            "bientity_action": {
-              "type": "origins:invert",
-              "action": {
-                "type": "origins:and",
-                "actions": [
-                  {
-                    "type": "origins:mount"
-                  },
-                  {
-                    "type": "origins:actor_action",
-                    "action": {
-                      "type": "origins:grant_power",
-                      "power": "dredgeorigins:dev/carry_cancel_fall_damage",
-                      "source": "apoli:command"
-                    }
-                  }
-                ]
+        "type": "origins:raycast",
+        "distance": 4,
+        "shape_type": "outline",
+        "fluid_handling": "none",
+
+        "bientity_action": {
+          "type": "origins:invert",
+          "action": {
+            "type": "origins:and",
+            "actions": [
+              {
+                "type": "origins:mount"
+              },
+              {
+                "type": "origins:actor_action",
+                "action": {
+                  "type": "origins:grant_power",
+                  "power": "dredgeorigins:dev/carry_cancel_fall_damage",
+                  "source": "apoli:command"
+                }
               }
-            },
-            "bientity_condition": {
-              "type": "origins:target_condition",
-              "condition": {
-                "type": "origins:and",
-                "conditions": [
-                  {
-                    "type": "origins:in_tag",
-                    "tag": "giantorigin:grab",
-                    "inverted": true
-                  },
-                  {
-                    "type": "origins:in_tag",
-                    "tag": "giantorigin:grab2",
-                    "inverted": true
-                  }
-                ]
-              }
-            }
+            ]
+          }
+        },
+        
+        "bientity_condition": {
+          "type": "origins:target_condition",
+          "condition": {
+            "type": "origins:entity_type",
+            "entity_type": "minecraft:player"
+          }
+        }
       },
 
       "else_action": {
