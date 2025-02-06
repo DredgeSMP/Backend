@@ -21,7 +21,7 @@
     "vinery:apple_cider",
     "vinery:mead",
     "beachparty:coconut_cocktail",
-    "beachparty:sweetberry_cocktail",
+    "beachparty:sweetberries_cocktail",
     "beachparty:cocoa_cocktail",
     "beachparty:pumpkin_cocktail",
     "beachparty:honey_cocktail",
@@ -46,7 +46,6 @@
     "farmersrespite:strong_coffee",
     "farmersrespite:purulent_tea",
     "farmersrespite:strong_purulent_tea",
-    "farmersrespite:melon_juice",
     "farmersrespite:long_apple_cider",
     "farmersrespite:strong_apple_cider"
   ]
