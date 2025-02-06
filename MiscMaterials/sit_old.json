@@ -1,0 +1,175 @@
+{
+    "type": "origins:multiple",
+    "sit": {
+        "type": "origins:active_self",
+        "key": "key.loadToolbarActivator",
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:spawn_entity",
+                    "entity_type": "doapi:chair",
+                    "entity_action": {
+                        "type": "origins:execute_command",
+                        "command": "tp ~ ~-0.1 ~"
+                    }
+                },
+                {
+                    "type": "origins:delay",
+                    "action": {
+                        "type": "origins:execute_command",
+                        "command": "ride @s mount @e[type=doapi:chair,sort=nearest,limit=1]"
+                    },
+                    "ticks": 2
+                },
+                {
+                    "type": "origins:change_resource",
+                    "operation": "set",
+                    "change": 1,
+                    "resource": "dredgeoriginsextras:sit_is-sitting"
+                }
+            ]
+        },
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:resource",
+                    "compare_to": 0,
+                    "comparison": "==",
+                    "resource": "dredgeoriginsextras:sit_is-sitting"
+                },
+                {
+                    "type": "apugli:grounded"
+                }
+            ]
+        }
+    },
+    "stand": {
+        "type": "origins:active_self",
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:resource",
+                    "compare_to": 1,
+                    "comparison": "==",
+                    "resource": "dredgeoriginsextras:sit_is-sitting"
+                },
+                {
+                    "type": "origins:resource",
+                    "compare_to": 0,
+                    "comparison": "==",
+                    "resource": "dredgeoriginsextras:sit_is-freecamming"
+                }
+            ]
+        },
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "tp @s ~ ~1 ~"
+                },
+                {
+                    "type": "origins:change_resource",
+                    "operation": "set",
+                    "change": 0,
+                    "resource": "dredgeoriginsextras:sit_is-sitting"
+                }
+            ]
+        },
+        "hud_render": {
+            "should_render": false
+        },
+        "key": "key.sneak"
+    },
+    "is-sitting": {
+        "type": "origins:resource",
+        "hud_render": {
+            "should_render": false
+        },
+        "min": 0,
+        "max": 1
+    },
+    "is-freecamming": {
+        "type": "origins:resource",
+        "hud_render": {
+            "should_render": false
+        },
+        "min": 0,
+        "max": 1
+    },
+    "freecam-toggle": {
+        "type": "origins:active_self",
+        "key": "key.freecam.toggle",
+        "entity_action": {
+            "type": "origins:if_else",
+            "condition": {
+                "type": "origins:resource",
+                "resource": "dredgeoriginsextras:sit_is-freecamming",
+                "compare_to": 1,
+                "comparison": "=="
+            },
+            "if_action": {
+                "type": "origins:change_resource",
+                "resource": "dredgeoriginsextras:sit_is-freecamming",
+                "change": 0,
+                "operation": "set"
+            },
+            "else_action": {
+                "type": "origins:change_resource",
+                "resource": "dredgeoriginsextras:sit_is-freecamming",
+                "change": 1,
+                "operation": "set"
+            }
+        }
+    },
+    "reset-states": {
+        "type": "origins:action_on_callback",
+        "entity_action_removed": {
+            "type": "origins:change_resource",
+            "resource": "dredgeoriginsextras:sit_is-freecamming",
+            "change": 0,
+            "operation": "set"
+        },
+        "entity_action_respawned": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:change_resource",
+                    "resource": "dredgeoriginsextras:sit_is-freecamming",
+                    "change": 0,
+                    "operation": "set"
+                },
+                {
+                    "type": "origins:change_resource",
+                    "resource": "dredgeoriginsextras:sit_is-sitting",
+                    "change": 0,
+                    "operation": "set"
+                }
+            ]
+        }
+    },
+    "manually-reset-states": {
+        "type": "origins:active_self",
+        "key": "key.saveToolbarActivator",
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:change_resource",
+                    "resource": "dredgeoriginsextras:sit_is-freecamming",
+                    "change": 0,
+                    "operation": "set"
+                },
+                {
+                    "type": "origins:change_resource",
+                    "resource": "dredgeoriginsextras:sit_is-sitting",
+                    "change": 0,
+                    "operation": "set"
+                }
+            ]
+        }
+    }
+}

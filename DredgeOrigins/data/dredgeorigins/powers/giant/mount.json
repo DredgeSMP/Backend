@@ -62,7 +62,8 @@
                 },
                 {
                   "type": "origins:add_velocity",
-                  "y": 0.66
+                  "y": 0.66,
+                  "client": false
                 }
               ]
             },
@@ -70,7 +71,8 @@
               "type": "origins:invert",
               "action": {
                 "type": "origins:add_velocity",
-                "y": -2
+                "y": -2,
+                "client": false
               }
             }
           }

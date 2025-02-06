@@ -1,0 +1,12 @@
+{
+    "name": "Eha Silverstein",
+    "description": "Now how did you end up here?",
+    "powers": [
+        "dredgeorigins:eha/rattle",
+        "dredgeorigins:eha/darkvision",
+        "dredgeorigins:zombie/poison_immunity"
+    ],
+    "icon": "naturalist:cooked_lizard_tail",
+    "impact": 1,
+    "unchoosable": true
+}

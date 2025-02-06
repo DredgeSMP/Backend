@@ -14,7 +14,12 @@
         "dredgeorigins:hazel/disc_player",
         "dredgeorigins:hazel/easy_bake",
         "dredgeorigins:hazel/base_armor",
-        "dredgeorigins:hazel/lightning"
+        "dredgeorigins:hazel/lightning",
+        "dredgeorigins:hazel/purr",
+        "dredgeorigins:hazel/centrifuge",
+        "moborigins:better_berries",
+        "dredgeoriginsextras:hidden_player_noeffect",
+        "moborigins:careful_gatherer"
 
     ],
     "icon": {

@@ -24,7 +24,7 @@
                     {
                         "type": "origins:ingredient",
                         "ingredient": {
-                            "tag": "imps_dredge:fishfood"
+                            "tag": "origins:ignore_diet"
                         }
                     }
                 ]

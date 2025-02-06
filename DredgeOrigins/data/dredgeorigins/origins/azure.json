@@ -12,8 +12,9 @@
       "origins:scare_creepers",
       "dredgeorigins:feline/feline_sounds",
       "origins:like_water",
-      "dev:breathe_underwater",
-      "dredgeorigins:squid/water_vision"
+      "dredgeorigins:dev/breathe_underwater",
+      "dredgeorigins:squid/water_vision",
+      "dredgeorigins:azure/invis"
     ],
     "icon": {
       "item": "minecraft:water_bucket"

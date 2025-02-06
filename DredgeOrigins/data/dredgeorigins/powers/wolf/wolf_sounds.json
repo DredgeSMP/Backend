@@ -1,0 +1,85 @@
+{
+    "type": "origins:multiple",
+    "hidden": true,
+    "hurt_death": {
+        "type": "origins:self_action_when_hit",
+        "entity_action": {
+            "type": "origins:if_else",
+            "condition": {
+                "type": "origins:health",
+                "comparison": ">",
+                "compare_to": 0
+            },
+            "if_action": {
+                "type": "origins:play_sound",
+                "sound": "minecraft:entity.wolf.hurt"
+            },
+            "else_action": {
+                "type": "origins:play_sound",
+                "sound": "minecraft:entity.wolf.death"
+            }
+
+        },
+        "cooldown": 1
+    },
+    "bark": {
+        "type": "origins:active_self",
+        "entity_action": {
+            "type": "origins:play_sound",
+            "sound": "minecraft:entity.wolf.ambient"
+        },
+        "key": {
+            "key": "key.origins.secondary_active"
+        }
+    },
+    "howl": {
+        "type": "origins:active_self",
+        "entity_action": {
+            "type": "origins:play_sound",
+            "sound": "minecraft:entity.wolf.howl"
+        },
+        "key": {
+            "key": "key.origins.quinary_active"
+        }
+    },
+    "growl": {
+        "type": "origins:active_self",
+        "entity_action": {
+            "type": "origins:play_sound",
+            "sound": "minecraft:entity.wolf.growl"
+        },
+        "key": {
+            "key": "key.origins.senary_active"
+        }
+    },
+    "pant": {
+        "type": "origins:active_self",
+        "entity_action": {
+            "type": "origins:play_sound",
+            "sound": "minecraft:entity.wolf.pant"
+        },
+        "key": {
+            "key": "key.origins.septenary_active"
+        }
+    },
+    "shake": {
+        "type": "origins:active_self",
+        "entity_action": {
+            "type": "origins:play_sound",
+            "sound": "minecraft:entity.wolf.shake"
+        },
+        "key": {
+            "key": "key.origins.octonary_active"
+        }
+    },
+    "whine": {
+        "type": "origins:active_self",
+        "entity_action": {
+            "type": "origins:play_sound",
+            "sound": "minecraft:entity.wolf.whine"
+        },
+        "key": {
+            "key": "key.origins.nonary_active"
+        }
+    }
+}

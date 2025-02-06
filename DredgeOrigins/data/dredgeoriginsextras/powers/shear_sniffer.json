@@ -1,0 +1,57 @@
+{
+    "type": "origins:action_on_entity_use",
+    "bientity_condition": {
+        "type": "origins:target_condition",
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:entity_type",
+                    "entity_type": "minecraft:sniffer"
+                },
+                {
+                    "type": "origins:power_active",
+                    "power": "dredgeoriginsextras:cannot_shear",
+                    "inverted": true
+                }
+            ]
+        }
+    },
+    "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": {
+            "item": "minecraft:shears"
+        }
+    },
+    "held_item_action": {
+        "type": "origins:damage"
+    },
+    "result_stack": {
+        "amount": 1,
+        "item": "minecraft:feather",
+        "tag": "{snifferFur:1, display:{Name:'[\"\",{\"text\":\"Sniffer Fur\",\"italic\":false}]'}}"
+    },
+    "bientity_action": {
+        "type": "origins:target_action",
+        "action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:grant_power",
+                    "power": "dredgeoriginsextras:cannot_shear",
+                    "source": "apoli:command"
+                },
+                {
+                    "type": "origins:delay",
+                    "ticks": 144000,
+                    "action": {
+                        "type": "origins:revoke_power",
+                        "power": "dredgeoriginsextras:cannot_shear",
+                        "source": "apoli:command"
+                    }
+                }
+            ]
+        }
+    },
+    "hidden": true
+}

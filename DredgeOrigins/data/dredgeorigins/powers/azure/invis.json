@@ -1,0 +1,17 @@
+{
+    "name": "Invisibility",
+    "description": "You can make yourself invisible on command.",
+    "type": "origins:multiple",
+    "toggle": {
+        "type": "origins:toggle",
+        "active_by_default": false,
+        "key": "key.origins.ternary_active"
+    },
+    "invis": {
+        "type": "origins:invisibility",
+        "condition": {
+            "type": "origins:power_active",
+            "power": "dredgeorigins:azure/invis_toggle"
+        }
+    }
+}

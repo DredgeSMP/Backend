@@ -30,8 +30,10 @@ dependencies {
 
 	// Fabric API. This is technically optional, but you probably want it anyway.
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
-	
+
+	modCompileOnly files('libs/supplementaries.jar')
 }
+
 
 processResources {
 	inputs.property "version", project.version

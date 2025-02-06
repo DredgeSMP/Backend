@@ -6,13 +6,13 @@
     "FFF"
   ],
   "key": {
-    "F":  {
-        "fabric:type": "fabric:nbt",
-        "base": {
-            "item": "minecraft:feather"
-        },
-        "nbt": "{snifferFur:1}"
-     },
+    "F": {
+      "fabric:type": "fabric:nbt",
+      "base": {
+        "item": "minecraft:feather"
+      },
+      "nbt": "{snifferFur:1}"
+    },
     "N": {
       "item": "minecraft:gold_nugget"
     },
@@ -23,9 +23,15 @@
   "result": {
     "item": "minecraft:leather_chestplate",
     "data": {
-        "snifferCoat": 1
+      "snifferCoat": 1,
+      "display": {
+        "Name": "[{\"text\":\"Sniffer Fur Coat\",\"italic\":false}]",
+        "Lore": [
+          "[{\"text\":\"A particularly warm coat for\",\"italic\":true}]",
+          "[{\"text\":\"battling the fiercest colds\",\"italic\":true}]"
+        ]
+      }
     }
   },
   "show_notification": false
 }
-

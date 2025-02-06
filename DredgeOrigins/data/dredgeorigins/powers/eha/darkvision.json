@@ -1,0 +1,10 @@
+{
+    "type": "origins:toggle_night_vision",
+    "active_by_default": true,
+    "key": {
+        "key": "key.origins.secondary_active"
+    },
+    "strength": 0.5,
+    "name": "Darkvision",
+    "description": "You have increased ability to see in the dark"
+}

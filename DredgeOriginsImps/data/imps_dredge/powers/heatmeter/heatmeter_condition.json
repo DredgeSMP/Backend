@@ -39,6 +39,26 @@
                 {
                     "type": "origins:gamemode",
                     "gamemode": "survival"
+                },
+                {
+                    "type": "origins:equipped_item",
+                    "equipment_slot": "chest",
+                    "item_condition": {
+                        "type": "origins:and",
+                        "conditions": [
+                            {
+                                "type": "origins:ingredient",
+                                "ingredient": {
+                                    "item": "minecraft:leather_chestplate"
+                                }
+                            },
+                            {
+                                "type": "origins:nbt",
+                                "nbt": "{snifferCoat:1}"
+                            }
+                        ]
+                    },
+                    "inverted": true
                 }
             ]
         },

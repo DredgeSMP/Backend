@@ -1,0 +1,143 @@
+{
+    "type": "origins:multiple",
+    "hidden": true,
+    "hurt_death": {
+        "type": "origins:self_action_when_hit",
+        "entity_action": {
+            "type": "origins:if_else",
+            "condition": {
+                "type": "origins:health",
+                "comparison": ">",
+                "compare_to": 0
+            },
+            "if_action": {
+                "type": "origins:play_sound",
+                "sound": "minecraft:entity.fox.hurt"
+            },
+            "else_action": {
+                "type": "origins:play_sound",
+                "sound": "minecraft:entity.fox.death"
+            }
+
+        },
+        "cooldown": 1
+    },
+    "idle": {
+        "type": "origins:action_over_time",
+        "interval": 100,
+        "entity_action": {
+            "type": "origins:chance",
+            "action": {
+                "type": "origins:if_else_list",
+                "actions": [
+                    {
+                        "condition": {
+                            "type": "origins:health",
+                            "comparison": ">",
+                            "compare_to": 4
+                        },
+                        "action": {
+                            "type": "origins:play_sound",
+                            "sound": "minecraft:entity.fox.ambient"
+                        }
+                    },
+                    {
+                        "condition": {
+                            "type": "origins:health",
+                            "comparison": "<=",
+                            "compare_to": 4
+                        },
+                        "action": {
+                            "type": "origins:play_sound",
+                            "sound": "minecraft:entity.fox.ambient",
+                            "pitch": 0.8
+                        }
+                    }
+                ]
+            },
+            "chance": 0.05
+        },
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:sneaking",
+                    "inverted": true
+                },
+                {
+                    "type": "origins:gamemode",
+                    "gamemode": "spectator",
+                    "inverted": true
+                },
+                {
+                    "type": "origins:status_effect",
+                    "effect": "minecraft:invisibility",
+                    "inverted": true
+                },
+                {
+                    "type": "origins:origin",
+                    "origin": "origins-classes:rogue",
+                    "layer": "origins-classes:class",
+                    "inverted": true
+                }
+            ]
+        }
+    },
+    "chirp": {
+        "type": "origins:active_self",
+        "entity_action": {
+            "type": "origins:play_sound",
+            "sound": "minecraft:entity.fox.ambient"
+        }
+    },
+    "bite": {
+        "type": "origins:active_self",
+        "entity_action": {
+            "type": "origins:play_sound",
+            "sound": "minecraft:entity.fox.bite"
+        },
+        "key": {
+            "key": "key.origins.secondary_active"
+        }
+    },
+    "sniff": {
+        "type": "origins:active_self",
+        "entity_action": {
+            "type": "origins:play_sound",
+            "sound": "minecraft:entity.fox.sniff"
+        },
+        "key": {
+            "key": "key.origins.quinary_active"
+        }
+    },
+    "screech": {
+        "type": "origins:active_self",
+        "entity_action": {
+            "type": "origins:play_sound",
+            "sound": "minecraft:entity.fox.screech"
+        },
+        "key": {
+            "key": "key.origins.senary_active"
+        }
+    },
+    "aggro": {
+        "type": "origins:active_self",
+        "entity_action": {
+            "type": "origins:play_sound",
+            "sound": "minecraft:entity.fox.aggro"
+        },
+        "key": {
+            "key": "key.origins.septenary_active"
+        }
+    },
+    "spit": {
+        "type": "origins:active_self",
+        "entity_action": {
+            "type": "origins:play_sound",
+            "sound": "minecraft:entity.fox.spit"
+        },
+        "key": {
+            "key": "key.origins.octonary_active"
+        }
+    }
+}

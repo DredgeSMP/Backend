@@ -29,6 +29,10 @@
           "duration": 400,
           "amplifier": 0
         }
+      },
+      {
+        "type": "origins:play_sound",
+        "sound": "minecraft:entity.squid.squirt"
       }
     ]
   }

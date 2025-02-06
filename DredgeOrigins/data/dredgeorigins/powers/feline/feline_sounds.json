@@ -100,6 +100,16 @@
             "key": "key.origins.secondary_active"
         }
     },
+    "purreow": {
+        "type": "origins:active_self",
+        "entity_action": {
+            "type": "origins:play_sound",
+            "sound": "minecraft:entity.cat.purreow"
+        },
+        "key": {
+            "key": "key.origins.quinary_active"
+        }
+    },
     "beg": {
         "type": "origins:active_self",
         "entity_action": {

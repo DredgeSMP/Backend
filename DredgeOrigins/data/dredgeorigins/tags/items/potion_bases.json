@@ -1,0 +1,8 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:glistering_melon_slice",
+        "minecraft:ghast_tear",
+        "minecraft:fermented_spider_eye"
+    ]
+}

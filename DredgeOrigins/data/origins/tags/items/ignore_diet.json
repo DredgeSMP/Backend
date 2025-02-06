@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "minecraft:chorus_fruit",
     "supplementaries:soap",
     "supplementaries:candy",
     "brewinandchewin:beer",
@@ -69,12 +70,9 @@
     "vinery:strad_wine",
     "vinery:apple_cider",
     "vinery:apple_wine",
-    "vinery:knulp_wine",
     "vinery:lilitu_wine",
     "vinery:bottle_mojang_noir",
     "vinery:villagers_fright",
-    "vinery:count_roleester_shiraz",
-    "vinery:lamroc_wine",
     "beachparty:coconut_cocktail",
     "beachparty:sweetberries_cocktail",
     "beachparty:cocoa_cocktail",
