@@ -17,6 +17,9 @@
           "tag": "origins:food_poultry"
         },
         "inverted": true
+      },
+      {
+        "type": "origins:food"
       }
     ]
   }

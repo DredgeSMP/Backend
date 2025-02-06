@@ -17,6 +17,9 @@
                     "tag": "origins:food_fish"
                 },
                 "inverted": true
+            },
+            {
+                "type": "origins:food"
             }
         ]
     }
