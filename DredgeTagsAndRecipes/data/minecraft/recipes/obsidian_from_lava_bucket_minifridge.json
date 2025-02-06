@@ -1,0 +1,14 @@
+{
+  "type": "beachparty:mini_fridge_mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:lava_bucket"
+    },
+    {
+      "item": "minecraft:ice"
+    }
+  ],
+  "result": {
+    "item": "minecraft:obsidian"
+  }
+}
