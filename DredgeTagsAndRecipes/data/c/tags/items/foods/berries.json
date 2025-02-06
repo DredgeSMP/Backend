@@ -1,6 +1,67 @@
 {
     "replace": false,
     "values": [
-        {"id":"bakery:strawberry", "required": false}
+        "minecraft:glow_berries",
+        "minecraft:sweet_berries",
+        {
+            "id": "bakery:strawberry",
+            "required": false
+        },
+        {
+            "id": "candlelight:tomato",
+            "required": false
+        },
+        {
+            "id": "vinery:cherry",
+            "required": false
+        },
+        {
+            "id": "vinery:rotten_cherry",
+            "required": false
+        },
+        {
+            "id": "vinery:red_grape",
+            "required": false
+        },
+        {
+            "id": "vinery:white_grape",
+            "required": false
+        },
+        {
+            "id": "vinery:savanna_grapes_red",
+            "required": false
+        },
+        {
+            "id": "vinery:savanna_grapes_white",
+            "required": false
+        },
+        {
+            "id": "vinery:taiga_grapes_red",
+            "required": false
+        },
+        {
+            "id": "vinery:taiga_grapes_white",
+            "required": false
+        },
+        {
+            "id": "vinery:jungle_grapes_red",
+            "required": false
+        },
+        {
+            "id": "vinery:jungle_grapes_white",
+            "required": false
+        },
+        {
+            "id": "nethervinery:crimson_grape",
+            "required": false
+        },
+        {
+            "id": "nethervinery:warped_grape",
+            "required": false
+        },
+        {
+            "id": "architects_palette:ourple_berries",
+            "required": false
+        }
     ]
 }

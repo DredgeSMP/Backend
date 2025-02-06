@@ -8,11 +8,15 @@
             {
                 "type": "origins:ingredient",
                 "ingredient": {
-                    "tag": "origins:notbirdfood"
+                    "tag": "origins:meat"
                 }
             },
             {
-                "type": "origins:food"
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "tag": "origins:food_fish"
+                },
+                "inverted": true
             }
         ]
     }

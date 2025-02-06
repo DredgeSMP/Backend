@@ -13,7 +13,10 @@
                 "type": "origins:or",
                 "conditions": [
                     {
-                        "type": "origins:meat"
+                        "type": "origins:ingredient",
+                        "ingredient": {
+                            "tag": "dredgeorigins:food_fish"
+                        }
                     },
                     {
                         "type": "origins:ingredient",

@@ -2,10 +2,10 @@
     "name": "Lactose Intolerance",
     "description": "You are lactose intolerant. That won't stop you, though.",
     "type": "origins:modify_food",
-    "item_condition":{
+    "item_condition": {
         "type": "origins:ingredient",
         "ingredient":{
-            "tag": "dredgeorigins:dairy"
+            "tag": "dredgeorigins:food_dairy"
         }
     },
     "entity_action": {

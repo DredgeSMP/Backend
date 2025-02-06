@@ -1,29 +1,12 @@
 {
     "replace": false,
     "values": [
-        "minecraft:cooked_chicken",
         "minecraft:cooked_cod",
-        "minecraft:cooked_mutton",
-        "minecraft:cooked_porkchop",
-        "minecraft:cooked_rabbit",
         "minecraft:cooked_salmon",
         "minecraft:pufferfish",
-        "minecraft:rabbit_stew",
-        "minecraft:beef",
-        "minecraft:chicken",
         "minecraft:cod",
-        "minecraft:mutton",
-        "minecraft:porkchop",
         "minecraft:salmon",
-        "minecraft:rotten_flesh",
-        "minecraft:spider_eye",
-        "minecraft:steak",
         "minecraft:tropical_fish",
-        "minecraft:rabbit",
-        {
-            "id": "bakery:sandwich",
-            "required": false
-        },
         {
             "id": "beachparty:raw_mussel_meat",
             "required": false
@@ -33,15 +16,7 @@
             "required": false
         },
         {
-            "id": "brewinandchewin:jerky",
-            "required": false
-        },
-        {
             "id": "brewinandchewin:kippers",
-            "required": false
-        },
-        {
-            "id": "brewinandchewin:fiery_fondue",
             "required": false
         },
         {
@@ -49,119 +24,11 @@
             "required": false
         },
         {
-            "id": "brewinandchewin:horror_lasagna",
-            "required": false
-        },
-        {
-            "id": "brewinandchewin:pizza_slice",
-            "required": false
-        },
-        {
-            "id": "brewinandchewin:ham_and_cheese_sandwich",
-            "required": false
-        },
-        {
-            "id": "candlelight:bolognese",
-            "required": false
-        },
-        {
-            "id": "candlelight:chicken_teriyaki",
-            "required": false
-        },
-        {
-            "id": "candlelight:lettuce_salad",
-            "required": false
-        },
-        {
-            "id": "candlelight:beef_tartare",
-            "required": false
-        },
-        {
-            "id": "candlelight:cooked_beef",
-            "required": false
-        },
-        {
-            "id": "candlelight:chicken_alfredo",
-            "required": false
-        },
-        {
-            "id": "candlelight:lettuce_beef",
-            "required": false
-        },
-        {
             "id": "candlelight:salmon_wine",
             "required": false
         },
         {
-            "id": "candlelight:pork_ribs",
-            "required": false
-        },
-        {
-            "id": "candlelight:pasta_bolognese",
-            "required": false
-        },
-        {
-            "id": "candlelight:fricasse",
-            "required": false
-        },
-        {
-            "id": "candlelight:chicken",
-            "required": false
-        },
-        {
-            "id": "canglelight:lasagne",
-            "required": false
-        },
-        {
-            "id": "candlelight:roastbeef_carrots",
-            "required": false
-        },
-        {
             "id": "candlelight:tropical_fish_supreme",
-            "required": false
-        },
-        {
-            "id": "corndelight:nachos_bowl",
-            "required": false
-        },
-        {
-            "id": "corndelight:corn_soup",
-            "required": false
-        },
-        {
-            "id": "corndelight:corn dog",
-            "required": false
-        },
-        {
-            "id": "corndelight:classic_corn_dog",
-            "required": false
-        },
-        {
-            "id": "corndelight:taco",
-            "required": false
-        },
-        {
-            "id": "farmersdelight:minced_beef",
-            "required": false
-        },
-        {
-            "id": "farmersdelight:beef_patty",
-            "required": false
-        },
-        {
-            "id": "farmersdelight:chicken_cuts",
-            "required": false
-        },
-        {
-            "id": "farmersdelight:cooked_chicken_cuts",
-            "required": false
-        },
-        {
-            "id": "farmersdelight:bacon",
-            "required": false
-        },
-        {
-            "id": "farmersdelight:cooked_bacon",
             "required": false
         },
         {
@@ -181,50 +48,6 @@
             "required": false
         },
         {
-            "id": "farmersdelight:mutton_chops",
-            "required": false
-        },
-        {
-            "id": "farmersdelight:cooked_mutton_chops",
-            "required": false
-        },
-        {
-            "id": "farmersdelight:ham",
-            "required": false
-        },
-        {
-            "id": "farmersdelight:smoked_ham",
-            "required": false
-        },
-        {
-            "id": "farmersdelight:barbecue_stick",
-            "required": false
-        },
-        {
-            "id": "farmersdelight:chicken_sandwich",
-            "required": false
-        },
-        {
-            "id": "farmersdelight:hamburger",
-            "required": false
-        },
-        {
-            "id": "farmersdelight:bacon_sandwich",
-            "required": false
-        },
-        {
-            "id": "farmersdelight:mutton_wrap",
-            "required": false
-        },
-        {
-            "id": "farmersdelight:dumplings",
-            "required": false
-        },
-        {
-            "id": "farmersdelight:stuffed_potato",
-            "required": false
-        },
-        {
             "id": "farmersdelight:cabbage_rolls",
             "required": false
         },
@@ -237,19 +60,7 @@
             "required": false
         },
         {
-            "id": "farmersdelight:beef_stew",
-            "required": false
-        },
-        {
-            "id": "farmersdelight:chicken_soup",
-            "required": false
-        },
-        {
             "id": "farmersdelight:fish_stew",
-            "required": false
-        },
-        {
-            "id": "farmersdelight:pumpkin_soup",
             "required": false
         },
         {
@@ -257,63 +68,11 @@
             "required": false
         },
         {
-            "id": "farmersdelight:noodle_soup",
-            "required": false
-        },
-        {
-            "id": "farmersdelight:bacon_and_eggs",
-            "required": false
-        },
-        {
-            "id": "farmersdelight:pasta_with_meatballs",
-            "required": false
-        },
-        {
-            "id": "farmersdelight:pasta_with_mutton_chop",
-            "required": false
-        },
-        {
-            "id": "farmersdelight:roasted_mutton_chops",
-            "required": false
-        },
-        {
-            "id": "farmersdelight:steak_and_potatoes",
-            "required": false
-        },
-        {
-            "id": "farmersdelight:squid_ink_pasta",
-            "required": false
-        },
-        {
             "id": "farmersdelight:grilled_salmon",
             "required": false
         },
         {
-            "id": "farmersdelight:roast_chicken",
-            "required": false
-        },
-        {
-            "id": "farmersdelight:honey_glazed_ham",
-            "required": false
-        },
-        {
-            "id": "farmersdelight:shepherds_pie",
-            "required": false
-        },
-        {
-            "id": "farmersdelight:dog_food",
-            "required": false
-        },
-        {
             "id": "farmersrespite:black_cod",
-            "required": false
-        },
-        {
-            "id": "farmersrespite:tea_curry",
-            "required": false
-        },
-        {
-            "id": "farmersrespite:blazing_chili",
             "required": false
         },
         {
@@ -641,150 +400,6 @@
             "required": false
         },
         {
-            "id": "mynethersdelight:deviled_egg",
-            "required": false
-        },
-        {
-            "id": "mynethersdelight:strider_slice",
-            "required": false
-        },
-        {
-            "id": "mynethersdelight:minced_strider",
-            "required": false
-        },
-        {
-            "id": "mynethersdelight:bleeding_tartar",
-            "required": false
-        },
-        {
-            "id": "mynethersdelight:strider_with_grilled_fungus",
-            "required": false
-        },
-        {
-            "id": "mynethersdelight:strider_stew",
-            "required": false
-        },
-        {
-            "id": "mynethersdelight:crimson_stroganoff",
-            "required": false
-        },
-        {
-            "id": "mynethersdelight:plate_of_striderloaf",
-            "required": false
-        },
-        {
-            "id": "mynethersdelight:plate_of_cold_striderloaf",
-            "required": false
-        },
-        {
-            "id": "mynethersdelight:hoglin_loin",
-            "required": false
-        },
-        {
-            "id": "mynethersdelight:hoglin_sausage",
-            "required": false
-        },
-        {
-            "id": "mynethersdelight:roasted_sausage",
-            "required": false
-        },
-        {
-            "id": "mynethersdelight:hotdog",
-            "required": false
-        },
-        {
-            "id": "mynethersdelight:sausage_and_potatoes",
-            "required": false
-        },
-        {
-            "id": "mynethersdelight:breakfast_sampler",
-            "required": false
-        },
-        {
-            "id": "mynethersdelight:cooked_loin",
-            "required": false
-        },
-        {
-            "id": "mynethersdelight:blue_tenderloin_steak",
-            "required": false
-        },
-        {
-            "id": "mynethersdelight:fried_hoglin_chop",
-            "required": false
-        },
-        {
-            "id": "mynethersdelight:spicy_noodle_soup",
-            "required": false
-        },
-        {
-            "id": "mynethersdelight:spicy_skewer",
-            "required": false
-        },
-        {
-            "id": "mynethersdelight:chilidog",
-            "required": false
-        },
-        {
-            "id": "mynethersdelight:spicy_hoglin_stew",
-            "required": false
-        },
-        {
-            "id": "mynethersdelight:hot_wings",
-            "required": false
-        },
-        {
-            "id": "mynethersdelight:hot_wings_bucket",
-            "required": false
-        },
-        {
-            "id": "mynethersdelight:spicy_curry",
-            "required": false
-        },
-        {
-            "id": "mynethersdelight:burnt_roll",
-            "required": false
-        },
-        {
-            "id": "mynethersdelight:roast_ear",
-            "required": false
-        },
-        {
-            "id": "mynethersdelight:plate_of_stuffed_hoglin_snout",
-            "required": false
-        },
-        {
-            "id": "mynethersdelight:plate_of_stuffed_hoglin_ham",
-            "required": false
-        },
-        {
-            "id": "mynethersdelight:plate_of_stuffed_hoglin",
-            "required": false
-        },
-        {
-            "id": "naturalist:duck",
-            "required": false
-        },
-        {
-            "id": "naturalist:cooked_duck",
-            "required": false
-        },
-        {
-            "id": "naturalist:venison",
-            "required": false
-        },
-        {
-            "id": "naturalist:cooked_venison",
-            "required": false
-        },
-        {
-            "id": "naturalist:lizard_tail",
-            "required": false
-        },
-        {
-            "id": "naturalist:cooked_lizard_tail",
-            "required": false
-        },
-        {
             "id": "naturalist:catfish",
             "required": false
         },
@@ -970,62 +585,6 @@
         },
         {
             "id": "netherdepthsupgrade:baked_soulsucker_stew",
-            "required": false
-        },
-        {
-            "id": "nethersdelight:raw_stuffed_hoglin",
-            "required": false
-        },
-        {
-            "id": "nethersdelight:hoglin_loin",
-            "required": false
-        },
-        {
-            "id": "nethersdelight:hoglin_sirloin",
-            "required": false
-        },
-        {
-            "id": "nethersdelight:strider_slice",
-            "required": false
-        },
-        {
-            "id": "nethersdelight:ground_strider",
-            "required": false
-        },
-        {
-            "id": "nethersdelight:hoglin_ear",
-            "required": false
-        },
-        {
-            "id": "nethersdelight:warped_moldy_meat",
-            "required": false
-        },
-        {
-            "id": "nethersdelight:grilled_strider",
-            "required": false
-        },
-        {
-            "id": "nethersdelight:strider_moss_stew",
-            "required": false
-        },
-        {
-            "id": "nethersdelight:plate_of_stuffed_hoglin_snout",
-            "required": false
-        },
-        {
-            "id": "nethersdelight:plate_of_stuffed_hoglin_ham",
-            "required": false
-        },
-        {
-            "id": "nethersdelight:plate_of_stuffed_hoglin_roast",
-            "required": false
-        },
-        {
-            "id": "nethersdelight:nether_skewer",
-            "required": false
-        },
-        {
-            "id": "supplementaries:soap",
             "required": false
         }
     ]
