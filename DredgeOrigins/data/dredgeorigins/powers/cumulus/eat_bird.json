@@ -14,7 +14,7 @@
       {
         "type": "origins:ingredient",
         "ingredient": {
-          "tag": "origins:food_poultry"
+          "tag": "dredgeorigins:food_poultry"
         },
         "inverted": true
       },
