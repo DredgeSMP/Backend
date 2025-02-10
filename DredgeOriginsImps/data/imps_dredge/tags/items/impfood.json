@@ -284,6 +284,10 @@
             "required": false
         },
         {
+            "id": "farmersrespite:strong_coffee",
+            "required": false
+        },
+        {
             "id": "farmersrespite:nether_wart_sourdough",
             "required": false
         },
