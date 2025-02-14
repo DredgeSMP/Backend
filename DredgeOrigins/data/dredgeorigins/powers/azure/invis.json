@@ -114,10 +114,19 @@
             "resource": "dredgeorigins:azure/invis_resource"
         },
         "condition": {
-            "type": "origins:resource",
-            "resource": "dredgeorigins:azure/invis_can-use",
-            "compare_to": 1,
-            "comparison": "=="
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:resource",
+                    "resource": "dredgeorigins:azure/invis_can-use",
+                    "compare_to": 1,
+                    "comparison": "=="
+                },
+                {
+                    "type": "origins:power_active",
+                    "power": "dredgeorigins:azure/invis_toggle"
+                }
+            ]
         }
     }
 }
