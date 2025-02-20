@@ -68,6 +68,10 @@
             "required": false
         },
         {
+            "id": "farmersdelight:squid_ink_pasta",
+            "required": false
+        },
+        {
             "id": "farmersdelight:grilled_salmon",
             "required": false
         },
