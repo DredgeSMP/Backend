@@ -32,6 +32,7 @@ dependencies {
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 
 	modCompileOnly files('libs/supplementaries.jar')
+	modCompileOnly files('libs/mcw.jar')
 }
 
 

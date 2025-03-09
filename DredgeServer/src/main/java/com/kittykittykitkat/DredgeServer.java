@@ -13,19 +13,19 @@ public class DredgeServer implements ModInitializer {
 
 	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 
-	public static final GameRules.Key<GameRules.BooleanRule> ANY_LIGHT_MELTS = GameRuleRegistry
-			.register(
-					"anyLightMelts",
-					GameRules.Category.UPDATES,
-					GameRuleFactory.createBooleanRule(true)
-			);
+//	public static final GameRules.Key<GameRules.BooleanRule> ANY_LIGHT_MELTS = GameRuleRegistry
+//			.register(
+//					"anyLightMelts",
+//					GameRules.Category.UPDATES,
+//					GameRuleFactory.createBooleanRule(true)
+//			);
 
-	public static final GameRules.Key<GameRules.BooleanRule> SKY_LIGHT_MELTS = GameRuleRegistry
-			.register(
-					"skyLightMelts",
-					GameRules.Category.UPDATES,
-					GameRuleFactory.createBooleanRule(true)
-			);
+//	public static final GameRules.Key<GameRules.BooleanRule> SKY_LIGHT_MELTS = GameRuleRegistry
+//			.register(
+//					"skyLightMelts",
+//					GameRules.Category.UPDATES,
+//					GameRuleFactory.createBooleanRule(true)
+//			);
 
 	@Override
 	public void onInitialize() {

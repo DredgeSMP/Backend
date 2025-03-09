@@ -4,12 +4,11 @@
   "compatibilityLevel": "JAVA_17",
   "mixins": [
     "CannonMixin",
+    "CurtainNoCollision",
     "HungerManagerAccessor",
     "LogTellRaw",
     "NoIceMelt",
-    "NoSnowMelt",
-    "PlaceIceSnow",
-    "SnowThroughLeaves"
+    "NoSnowMelt"
   ],
   "injectors": {
     "defaultRequire": 1
