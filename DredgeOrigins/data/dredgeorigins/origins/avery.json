@@ -21,7 +21,7 @@
         "origins:scare_creepers",
         "dredgeorigins:avery/feline_sounds"
     ],
-    "icon": "minecraft:cod",
+    "icon": "hybrid-aquatic:raw_crayfish",
     "impact": 3,
     "unchoosable": true
 }
