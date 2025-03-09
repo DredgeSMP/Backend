@@ -21,7 +21,7 @@
         "origins:scare_creepers",
         "dredgeorigins:feline/feline_sounds"
     ],
-    "icon": "minecraft:dandelion",
+    "icon": "farmersdelight:melon_popsicle",
     "impact": 3,
     "unchoosable": true
 }
