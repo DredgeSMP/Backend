@@ -1,0 +1,27 @@
+{
+    "name": "Popsicle",
+    "description": "The littlest undead guy",
+    "powers": [
+        "dredgeorigins:zombie/undead",
+        "moborigins:zombie_hunger",
+        "origins:carnivore",
+        "dredgeorigins:zombie/strong_fists",
+        "dredgeorigins:zombie/bad_swimmer",
+        "dredgeorigins:zombie/poison_immunity",
+        "dredgeorigins:zombie/base_armor",
+        "dredgeorigins:zombie/zombies_ignore",
+        "dredgeorigins:feline/weak_arms",
+        "dredgeorigins:feline/milk",
+        "dredgeorigins:feline/fish",
+        "dredgeorigins:feline/jump",
+        "dredgeorigins:feline/pounce",
+        "origins:fall_immunity",
+        "origins:velvet_paws",
+        "dredgeorigins:feline/nocturnal",
+        "origins:scare_creepers",
+        "dredgeorigins:feline/feline_sounds"
+    ],
+    "icon": "minecraft:cod",
+    "impact": 3,
+    "unchoosable": true
+}
