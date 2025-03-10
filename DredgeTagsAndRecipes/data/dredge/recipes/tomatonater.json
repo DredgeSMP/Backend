@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "c:foods/breads"
+    },
+    {
+      "item": "farmersdelight:beef_patty"
+    },
+    {
+      "item": "farmersdelight:cooked_bacon"
+    },
+    {
+      "tag": "c:crops/tomato"
+    },
+    {
+      "tag": "c:crops/tomato"
+    },
+    {
+      "tag": "c:crops/tomato"
+    },
+    {
+      "tag": "c:crops/tomato"
+    },
+    {
+      "tag": "c:crops/tomato"
+    },
+    {
+      "tag": "brewinandchewin:flaxen_cheese_wedge"
+    }
+  ],
+  "result": {
+    "item": "farmersdelight:hamburger",
+    "data": {
+      "display": {
+        "Name": "[{\"text\":\"Lily Pad Burger\",\"italic\":false}]"
+      }
+    }
+  },
+  "show_notification": false
+}
