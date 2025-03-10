@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "c:foods/breads"
+    },
+    {
+      "item": "farmersdelight:beef_patty"
+    },
+    {
+      "item": "brewinandchewin:flaxen_cheese_wedge"
+    },
+    {
+      "item": "brewinandchewin:pickled_pickles"
+    },
+    {
+      "item": "brewinandchewin:pickled_pickles"
+    },
+    {
+      "item": "brewinandchewin:pickled_pickles"
+    },
+    {
+      "item": "brewinandchewin:pickled_pickles"
+    },
+    {
+      "item": "brewinandchewin:pickled_pickles"
+    },
+    {
+      "item": "brewinandchewin:pickled_pickles"
+    }
+  ],
+  "result": {
+    "item": "farmersdelight:hamburger",
+    "data": {
+      "display": {
+        "Name": "[{\"text\":\"The Fucking McPickle Pounder\",\"italic\":false}]"
+      }
+    }
+  },
+  "show_notification": false
+}

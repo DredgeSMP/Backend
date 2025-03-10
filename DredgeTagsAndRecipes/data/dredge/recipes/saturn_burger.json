@@ -9,22 +9,22 @@
       "item": "farmersdelight:beef_patty"
     },
     {
-      "item": "farmersdelight:cooked_bacon"
+      "item": "farmersdelight:beef_patty"
     },
     {
-      "tag": "c:crops/tomato"
+      "tag": "c:crops/onion"
     },
     {
-      "tag": "c:crops/tomato"
+      "tag": "c:crops/onion"
     },
     {
-      "tag": "c:crops/tomato"
+      "tag": "c:crops/onion"
     },
     {
-      "tag": "c:crops/tomato"
+      "tag": "c:crops/onion"
     },
     {
-      "tag": "c:crops/tomato"
+      "tag": "c:crops/onion"
     },
     {
       "item": "brewinandchewin:flaxen_cheese_wedge"
@@ -34,7 +34,7 @@
     "item": "farmersdelight:hamburger",
     "data": {
       "display": {
-        "Name": "[{\"text\":\"Tomatonater\",\"italic\":false}]"
+        "Name": "[{\"text\":\"Saturn Burger\",\"italic\":false}]"
       }
     }
   },
