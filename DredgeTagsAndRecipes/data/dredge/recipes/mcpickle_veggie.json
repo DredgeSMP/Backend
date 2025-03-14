@@ -6,10 +6,10 @@
       "tag": "c:foods/breads"
     },
     {
-      "item": "brewinandchewin:pickled_pickles"
+      "item": "minecraft:carrot"
     },
     {
-      "item": "brewinandchewin:flaxen_cheese_wedge"
+      "item": "minecraft:beetroot"
     },
     {
       "item": "brewinandchewin:pickled_pickles"
@@ -31,7 +31,7 @@
     }
   ],
   "result": {
-    "item": "farmersdelight:hamburger",
+    "item": "bakery:vegetable_sandwich",
     "data": {
       "display": {
         "Name": "[{\"text\":\"The Vegetarian Fucking McPickle Pounder\",\"italic\":false}]"
