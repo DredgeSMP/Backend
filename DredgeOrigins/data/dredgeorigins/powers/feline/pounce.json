@@ -39,6 +39,11 @@
                 "inverted": true
             },
             {
+                "type": "origins:submerged_in",
+                "fluid": "minecraft:water",
+                "inverted": true
+            },
+            {
                 "type": "origins:gamemode",
                 "gamemode": "survival"
             },
