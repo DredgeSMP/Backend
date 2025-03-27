@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "fabric:type": "fabric:nbt",
+      "base": {
+        "item": "minecraft:glowstone_dust"
+      },
+      "nbt": "{stardust:1}"
+    },
+    {
+      "item": "minecraft:glass_bottle"
+    }
+  ],
+  "result": {
+    "item": "minecraft:honey_bottle",
+    "data": {
+      "stardustBottle": 1,
+      "display": {
+        "Name": "[{\"text\":\"Bottle of Stardust\",\"italic\":false}]"
+      }
+    }
+  },
+  "show_notification": false
+}

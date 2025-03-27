@@ -1,0 +1,9 @@
+{
+    "parent": "medievalweapons:item/netherite_long_sword",
+    "textures": {
+        "layer0": "dredge:item/managarmr.png"
+    },
+    "overrides": [
+        { "predicate": { "medievalweapons:gui": 1.0 }, "model": "dredge:item/managarmr_gui" }
+    ]
+}
