@@ -1,0 +1,14 @@
+{
+    "name": "Brisket",
+    "description": "Starsurfing selkie!!",
+    "powers": [
+        "dredgeorigins:squid/aquatic",
+        "dredgeorigins:squid/dash",
+        "dredgeorigins:squid/water_vision",
+        "dredgeorigins:giant/giant_diet",
+        "origins:no_shield"
+    ],
+    "icon": "beachparty:seashell",
+    "impact": 1,
+    "unchoosable": true
+}

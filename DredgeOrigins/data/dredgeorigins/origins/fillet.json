@@ -1,0 +1,14 @@
+{
+    "name": "Fillet",
+    "description": "Star powered robot with plenty of past.",
+    "powers": [
+        "coppergolem:buffs/no_stomach",
+        "coppergolem:debuffs/sink",
+        "dredgeorigins:goat/leap",
+        "dredgeorigins:goat/brace",
+        "phoenix:water_weakness"
+    ],
+    "icon": "minecraft:nether_star",
+    "impact": 1,
+    "unchoosable": true
+}
