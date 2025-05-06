@@ -14,7 +14,10 @@
       "origins:like_water",
       "dredgeorigins:dev/breathe_underwater",
       "dredgeorigins:squid/water_vision",
-      "dredgeorigins:azure/invis"
+      "dredgeorigins:azure/invis",
+      "dredgeorigins:cumulus/flying_resource",
+      "dredgeorigins:cumulus/flying",
+      "moborigins:zombie_hunger"
     ],
     "icon": {
       "item": "minecraft:water_bucket"
