@@ -1,0 +1,108 @@
+{
+  "type": "origins:multiple",
+  "name": "Carry",
+  "description": "Other players can ride on top of you, you can pick up mobs, and you can throw your passenger",
+  "mount": {
+    "type": "origins:action_on_being_used",
+    "bientity_action": {
+      "type" :"origins:mount"
+    },
+    "bientity_condition": {
+      "type": "origins:target_condition",
+      "condition": {
+        "type": "origins:passenger",
+        "inverted": true
+      }
+    }
+  },
+
+  "grab_or_throw": {
+    "type": "origins:active_self",
+    "cooldown": 5,
+    "key": {
+      "key": "key.origins.secondary_active"
+    },
+    "entity_action": {
+      "type": "origins:if_else",
+      "condition": {
+        "type": "origins:passenger",
+        "inverted": true
+      },
+      "if_action": {
+        "type": "origins:raycast",
+        "distance": 4,
+        "shape_type": "outline",
+        "fluid_handling": "none",
+
+        "bientity_action": {
+          "type": "origins:invert",
+          "action": {
+            "type": "origins:and",
+            "actions": [
+              {
+                "type": "origins:mount"
+              },
+              {
+                "type": "origins:actor_action",
+                "action": {
+                  "type": "origins:grant_power",
+                  "power": "dredgeorigins:dev/carry_cancel_fall_damage",
+                  "source": "apoli:command"
+                }
+              }
+            ]
+          }
+        },
+        
+        "bientity_condition": {
+          "type": "origins:target_condition",
+          "condition": {
+            "type": "origins:entity_type",
+            "entity_type": "minecraft:player"
+          }
+        }
+      },
+
+      "else_action": {
+            "type": "origins:if_else",
+            "condition": {
+              "type": "origins:sneaking",
+              "inverted": true
+            },
+            "if_action": {
+              "type": "origins:passenger_action",
+              "action": {
+                "type": "origins:and",
+                "actions": [
+                  {
+                    "type": "origins:dismount"
+                  },
+                  {
+                    "type": "origins:add_velocity",
+                    "y": 0.66
+                  },
+                  {
+                    "type": "origins:grant_power",
+                    "power": "dredgeorigins:dev/carry_cancel_fall_damage",
+                    "source": "apoli:command"
+                  }
+                ]
+              },
+              "bientity_action": {
+                "type": "origins:invert",
+                "action": {
+                  "type": "origins:add_velocity",
+                  "y": -2
+                }
+              }
+            },
+            "else_action": {
+              "type": "origins:passenger_action",
+              "action": {
+                "type": "origins:dismount"
+              }
+            }
+      }
+    }
+  }
+}
