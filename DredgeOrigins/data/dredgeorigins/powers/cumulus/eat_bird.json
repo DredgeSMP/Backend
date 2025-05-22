@@ -8,8 +8,15 @@
       {
         "type": "origins:ingredient",
         "ingredient": {
-          "tag": "dredgeorigins:not_cumulus_food"
+          "tag": "origins:meat"
         }
+      },
+      {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "tag": "dredgeorigins:food_poultry"
+        },
+        "inverted": true
       },
       {
         "type": "origins:food"

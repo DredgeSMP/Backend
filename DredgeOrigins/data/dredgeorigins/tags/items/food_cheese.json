@@ -1,0 +1,77 @@
+{
+    "replace": false,
+    "values": [
+        {
+            "id": "brewinandchewin:flaxen_cheese_wedge",
+            "required": false
+        },
+        {
+            "id": "brewinandchewin:scarlet_cheese_wedge",
+            "required": false
+        },
+        {
+            "id": "brewinandchewin:fiery_fondue",
+            "required": false
+        },
+        {
+            "id": "brewinandchewin:quiche_slice",
+            "required": false
+        },
+        {
+            "id": "brewinandchewin:vegetable_omelet",
+            "required": false
+        },
+        {
+            "id": "brewinandchewin:cheesy_pasta",
+            "required": false
+        },
+        {
+            "id": "brewinandchewin:creamy_onion_soup",
+            "required": false
+        },
+        {
+            "id": "brewinandchewin:scarlet_pierogies",
+            "required": false
+        },
+        {
+            "id": "brewinandchewin:horror_lasagna",
+            "required": false
+        },
+        {
+            "id": "brewinandchewin:pizza_slice",
+            "required": false
+        },
+        {
+            "id": "brewinandchewin:ham_and_cheese_sandwich",
+            "required": false
+        },
+        {
+            "id": "candlelight:mozzarella",
+            "required": false
+        },
+        {
+            "id": "candlelight:beetroot_salad",
+            "required": false
+        },
+        {
+            "id": "candlelight:lettuce_salad",
+            "required": false
+        },
+        {
+            "id": "candlelight:pasta_bolognese",
+            "required": false
+        },
+        {
+            "id": "candlelight:pasta_lettuce",
+            "required": false
+        },
+        {
+            "id": "candlelight:tomato_mozzarella_salad",
+            "required": false
+        },
+        {
+            "id": "canglelight:lasagne",
+            "required": false
+        }
+    ]
+}

@@ -6,7 +6,8 @@
     "moborigins:wolf_howl",
     "moborigins:wolf_pack",
     "origins:carnivore",
-    "dredgeorigins:wolf/dog_food"
+    "dredgeorigins:wolf/dog_food",
+    "dredgeorigins:wolf/wolf_sounds"
   ],
   "icon":"minecraft:bone",
   "order":2,

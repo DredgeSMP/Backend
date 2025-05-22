@@ -2,7 +2,7 @@
     "name": "Avery",
     "description": "Everyone's favorite zombie cat",
     "powers": [
-        "moborigins:undead",
+        "dredgeorigins:zombie/undead",
         "moborigins:zombie_hunger",
         "origins:carnivore",
         "dredgeorigins:zombie/strong_fists",
@@ -19,9 +19,9 @@
         "origins:velvet_paws",
         "dredgeorigins:feline/nocturnal",
         "origins:scare_creepers",
-        "dredgeorigins:feline/feline_sounds"
+        "dredgeorigins:avery/feline_sounds"
     ],
-    "icon": "minecraft:cod",
+    "icon": "hybrid-aquatic:raw_crayfish",
     "impact": 3,
     "unchoosable": true
 }

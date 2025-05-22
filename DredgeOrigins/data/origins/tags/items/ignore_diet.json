@@ -1,103 +1,311 @@
 {
-  "replace": false,
-  "values": [
-    "supplementaries:soap",
-    "supplementaries:candy",
-    "brewinandchewin:beer",
-    "brewinandchewin:bloody_mary",
-    "brewinandchewin:dread_nog",
-    "brewinandchewin:egg_grog",
-    "brewinandchewin:glittering_grenadine",
-    "brewinandchewin:kombucha",
-    "brewinandchewin:mead",
-    "brewinandchewin:pale_jane",
-    "brewinandchewin:red_rum",
-    "brewinandchewin:rice_wine",
-    "brewinandchewin:saccharine_rum",
-    "brewinandchewin:salty_folly",
-    "brewinandchewin:steel_toe_stout",
-    "brewinandchewin:strongroot_ale",
-    "brewinandchewin:vodka",
-    "brewinandchewin:withering_dross",
-    "minecraft:golden_apple",
-    "minecraft:enchanted_golden_apple",
-    "farmersrespite:green_tea",
-    "farmersrespite:yellow_tea",
-    "farmersrespite:black_tea",
-    "farmersrespite:rose_hip_tea",
-    "farmersrespite:dandelion_tea",
-    "farmersrespite:purulent_tea",
-    "farmersrespite:coffee",
-    "farmersrespite:long_green_tea",
-    "farmersrespite:long_yellow_tea",
-    "farmersrespite:long_black_tea",
-    "farmersrespite:long_dandelion_tea",
-    "farmersrespite:long_coffee",
-    "farmersrespite:long_apple_cider",
-    "farmersrespite:strong_green_tea",
-    "farmersrespite:strong_yellow_tea",
-    "farmersrespite:strong_black_tea",
-    "farmersrespite:strong_rose_hip_tea",
-    "farmersrespite:strong_melon_juice",
-    "farmersrespite:strong_purulent_tea",
-    "farmersrespite:strong_coffee",
-    "farmersrespite:strong_apple_cider",
-    "nethervinery:ghastly_grenache",
-    "nethervinery:netherite_nectar",
-    "nethervinery:blazewine_pinot",
-    "nethervinery:nether_fizz",
-    "nethervinery:lava_fizz",
-    "nethervinery:improved_nether_fizz",
-    "nethervinery:improved_lava_fizz",
-    "vinery:chorus_wine",
-    "vinery:cherry_wine",
-    "vinery:magnetic_wine",
-    "vinery:jo_special_mixture",
-    "vinery:cristel_wine",
-    "vinery:glowing_wine",
-    "vinery:red_wine",
-    "vinery:jellie_wine",
-    "vinery:stal_wine",
-    "vinery:bolvar_wine",
-    "vinery:solaris_wine",
-    "vinery:eiswein",
-    "vinery:chenet_wine",
-    "vinery:kelp_cider",
-    "vinery:aegis_wine",
-    "vinery:clark_wine",
-    "vinery:mellohi_wine",
-    "vinery:strad_wine",
-    "vinery:apple_cider",
-    "vinery:apple_wine",
-    "vinery:knulp_wine",
-    "vinery:lilitu_wine",
-    "vinery:bottle_mojang_noir",
-    "vinery:villagers_fright",
-    "vinery:count_roleester_shiraz",
-    "vinery:lamroc_wine",
-    "beachparty:coconut_cocktail",
-    "beachparty:sweetberries_cocktail",
-    "beachparty:cocoa_cocktail",
-    "beachparty:pumpkin_cocktail",
-    "beachparty:honey_cocktail",
-    "beachparty:melon_cocktail",
-    "beachparty:sweetberry_milkshake",
-    "beachparty:coconut_milkshake",
-    "beachparty:chocolate_milkshake",
-    "beachparty:sweetberry_icecream",
-    "beachparty:coconut_icecream",
-    "beachparty:chocolate_icecream",
-    "beachparty:refreshing_drink",
-    "beachparty:icecream_coconut",
-    "beachparty:icecream_cactus",
-    "beachparty:icecream_melon",
-    "beachparty:icecream_chocolate",
-    "beachparty:icecream_sweetberries",
-    "farmersdelight:melon_popsicle",
-    "minecraft:bone",
-    "farmersdelight:cake_slice",
-    "farmersdelight:apple_cider",
-    "minecraft:honey_bottle",
-    "architects_palette:catnip_leaf"
-  ]
+    "replace": false,
+    "values": [
+        "minecraft:chorus_fruit",
+        "minecraft:enchanted_golden_apple",
+        "minecraft:golden_apple",
+        "minecraft:honey_bottle",
+        "minecraft:pufferfish",
+        "minecraft:suspicious_stew",
+        {
+            "id": "brewinandchewin:beer",
+            "required": false
+        },
+        {
+            "id": "brewinandchewin:vodka",
+            "required": false
+        },
+        {
+            "id": "brewinandchewin:mead",
+            "required": false
+        },
+        {
+            "id": "brewinandchewin:rice_wine",
+            "required": false
+        },
+        {
+            "id": "brewinandchewin:egg_grog",
+            "required": false
+        },
+        {
+            "id": "brewinandchewin:strongroot_ale",
+            "required": false
+        },
+        {
+            "id": "brewinandchewin:saccharine_rum",
+            "required": false
+        },
+        {
+            "id": "brewinandchewin:pale_jane",
+            "required": false
+        },
+        {
+            "id": "brewinandchewin:dread_nog",
+            "required": false
+        },
+        {
+            "id": "brewinandchewin:salty_folly",
+            "required": false
+        },
+        {
+            "id": "brewinandchewin:steel_toe_stout",
+            "required": false
+        },
+        {
+            "id": "brewinandchewin:glittering_grenadine",
+            "required": false
+        },
+        {
+            "id": "brewinandchewin:bloody_mary",
+            "required": false
+        },
+        {
+            "id": "brewinandchewin:red_rum",
+            "required": false
+        },
+        {
+            "id": "brewinandchewin:withering_dross",
+            "required": false
+        },
+        {
+            "id": "brewinandchewin:kombucha",
+            "required": false
+        },
+        {
+            "id": "vinery:chorus_wine",
+            "required": false
+        },
+        {
+            "id": "vinery:cherry_wine",
+            "required": false
+        },
+        {
+            "id": "vinery:magnetic_wine",
+            "required": false
+        },
+        {
+            "id": "vinery:noir_wine",
+            "required": false
+        },
+        {
+            "id": "vinery:lilitu_wine",
+            "required": false
+        },
+        {
+            "id": "vinery:mellohi_wine",
+            "required": false
+        },
+        {
+            "id": "vinery:stal_wine",
+            "required": false
+        },
+        {
+            "id": "vinery:strad_wine",
+            "required": false
+        },
+        {
+            "id": "vinery:solaris_wine",
+            "required": false
+        },
+        {
+            "id": "vinery:bolvar_wine",
+            "required": false
+        },
+        {
+            "id": "vinery:aegis_wine",
+            "required": false
+        },
+        {
+            "id": "vinery:clark_wine",
+            "required": false
+        },
+        {
+            "id": "vinery:chenet_wine",
+            "required": false
+        },
+        {
+            "id": "vinery:kelp_cider",
+            "required": false
+        },
+        {
+            "id": "vinery:apple_wine",
+            "required": false
+        },
+        {
+            "id": "vinery:apple_cider",
+            "required": false
+        },
+        {
+            "id": "vinery:jellie_wine",
+            "required": false
+        },
+        {
+            "id": "vinery:red_wine",
+            "required": false
+        },
+        {
+            "id": "vinery:jo_special_mixture",
+            "required": false
+        },
+        {
+            "id": "vinery:cristel_wine",
+            "required": false
+        },
+        {
+            "id": "vinery:villagers_fright",
+            "required": false
+        },
+        {
+            "id": "vinery:glowing_wine",
+            "required": false
+        },
+        {
+            "id": "vinery:mead",
+            "required": false
+        },
+        {
+            "id": "vinery:bottle_mojang_noir",
+            "required": false
+        },
+        {
+            "id": "vinery:eiswein",
+            "required": false
+        },
+        {
+            "id": "nethervinery:blazewine_pinot",
+            "required": false
+        },
+        {
+            "id": "nethervinery:netherite_nectar",
+            "required": false
+        },
+        {
+            "id": "nethervinery:ghastly_grenache",
+            "required": false
+        },
+        {
+            "id": "nethervinery:lava_fizz",
+            "required": false
+        },
+        {
+            "id": "nethervinery:nether_fizz",
+            "required": false
+        },
+        {
+            "id": "nethervinery:improved_lava_fizz",
+            "required": false
+        },
+        {
+            "id": "nethervinery:improved_nether_fizz",
+            "required": false
+        },
+        {
+            "id": "farmersdelight:sweet_berry_cookie",
+            "required": false
+        },
+        {
+            "id": "farmersdelight:honey_cookie",
+            "required": false
+        },
+        {
+            "id": "farmersdelight:melon_popsicle",
+            "required": false
+        },
+        {
+            "id": "farmersdelight:glow_berry_custard",
+            "required": false
+        },
+        {
+            "id": "farmersrespite:green_tea",
+            "required": false
+        },
+        {
+            "id": "farmersrespite:long_green_tea",
+            "required": false
+        },
+        {
+            "id": "farmersrespite:strong_green_tea",
+            "required": false
+        },
+        {
+            "id": "farmersrespite:yellow_tea",
+            "required": false
+        },
+        {
+            "id": "farmersrespite:long_yellow_tea",
+            "required": false
+        },
+        {
+            "id": "farmersrespite:strong_yellow_tea",
+            "required": false
+        },
+        {
+            "id": "farmersrespite:black_tea",
+            "required": false
+        },
+        {
+            "id": "farmersrespite:long_black_tea",
+            "required": false
+        },
+        {
+            "id": "farmersrespite:strong_black_tea",
+            "required": false
+        },
+        {
+            "id": "farmersrespite:rose_hip_tea",
+            "required": false
+        },
+        {
+            "id": "farmersrespite:strong_rose_hip_tea",
+            "required": false
+        },
+        {
+            "id": "farmersrespite:dandelion_tea",
+            "required": false
+        },
+        {
+            "id": "farmersrespite:long_dandelion_tea",
+            "required": false
+        },
+        {
+            "id": "farmersrespite:coffee",
+            "required": false
+        },
+        {
+            "id": "farmersrespite:long_coffee",
+            "required": false
+        },
+        {
+            "id": "farmersrespite:strong_coffee",
+            "required": false
+        },
+        {
+            "id": "farmersrespite:purulent_tea",
+            "required": false
+        },
+        {
+            "id": "farmersrespite:strong_purulent_tea",
+            "required": false
+        },
+        {
+            "id": "farmersrespite:long_apple_cider",
+            "required": false
+        },
+        {
+            "id": "farmersrespite:strong_apple_cider",
+            "required": false
+        },
+        {
+            "id": "supplementaries:candy",
+            "required": false
+        },
+        {
+            "id": "supplementaries:soap",
+            "required": false
+        },
+        {
+            "id": "architects_palette:catnip_leaf",
+            "required": false
+        }
+    ]
 }

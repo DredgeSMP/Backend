@@ -1,0 +1,9 @@
+{
+    "parent": "medievalweapons:item/wooden_long_sword",
+    "textures": {
+        "layer0": "dredge:item/labyrinthos_broken.png"
+    },
+    "overrides": [
+        { "predicate": { "medievalweapons:gui": 1.0 }, "model": "dredge:item/labyrinthos_broken_gui" }
+    ]
+}

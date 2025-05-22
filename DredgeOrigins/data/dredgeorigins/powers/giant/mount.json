@@ -2,19 +2,6 @@
   "type": "origins:multiple",
   "name": "Piggyback",
   "description": "Other players can ride on top of you, you can pick up mobs, and you can throw your passenger",
-  "mount": {
-    "type": "origins:action_on_being_used",
-    "bientity_action": {
-      "type": "origins:mount"
-    },
-    "bientity_condition": {
-      "type": "origins:target_condition",
-      "condition": {
-        "type": "origins:passenger",
-        "inverted": true
-      }
-    }
-  },
   "grab": {
     "type": "origins:active_self",
     "cooldown": 5,
@@ -62,7 +49,8 @@
                 },
                 {
                   "type": "origins:add_velocity",
-                  "y": 0.66
+                  "y": 0.66,
+                  "client": false
                 }
               ]
             },
@@ -70,7 +58,8 @@
               "type": "origins:invert",
               "action": {
                 "type": "origins:add_velocity",
-                "y": -2
+                "y": -2,
+                "client": false
               }
             }
           }

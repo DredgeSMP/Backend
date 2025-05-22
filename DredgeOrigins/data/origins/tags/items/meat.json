@@ -1,88 +1,1032 @@
 {
-  "replace": false,
-  "values": [
-    "farmersdelight:minced_beef",
-    "farmersdelight:chicken_cuts",
-    "farmersdelight:bacon",
-    "farmersdelight:mutton_chops",
-    "farmersdelight:ham",
-    "farmersdelight:roast_chicken",
-    "farmersdelight:honey_glazed_ham",
-    "farmersdelight:shepherds_pie",
-    "farmersdelight:beef_patty",
-    "farmersdelight:cooked_chicken_cuts",
-    "farmersdelight:cooked_bacon",
-    "farmersdelight:cooked_mutton_chops",
-    "farmersdelight:smoked_ham",
-    "farmersdelight:barbecue_stick",
-    "farmersdelight:chicken_sandwich",
-    "farmersdelight:hamburger",
-    "farmersdelight:bacon_sandwich",
-    "farmersdelight:mutton_wrap",
-    "farmersdelight:stuffed_potato",
-    "farmersdelight:bone_broth",
-    "farmersdelight:beef_stew",
-    "farmersdelight:chicken_soup",
-    "farmersdelight:pumpkin_soup",
-    "farmersdelight:noodle_soup",
-    "farmersdelight:bacon_and_eggs",
-    "farmersdelight:pasta_with_meatballs",
-    "farmersdelight:pasta_with_mutton_chop",
-    "farmersdelight:roasted_mutton_chops",
-    "farmersdelight:steak_and_potatoes",
-    "brewinandchewin:jerky",
-    "brewinandchewin:scarlet_pierogies",
-    "brewinandchewin:horror_lasagna",
-    "brewinandchewin:fiery_fondue",
-    "brewinandchewin:pizza_slice",
-    "brewinandchewin:ham_and_cheese_sandwich",
-    "farmersdelight:salmon_roll",
-    "farmersdelight:cod_roll",
-    "farmersdelight:cod_slice",
-    "farmersdelight:salmon_slice",
-    "#minecraft:fishes",
-    "#c:foods/raw_fishes",
-    "#c:foods/cooked_fishes",
-    "farmersdelight:cooked_cod_slice",
-    "farmersdelight:cooked_salmon_slice",
-    "farmersdelight:fish_stew",
-    "farmersdelight:baked_cod_stew",
-    "farmersdelight:squid_ink_pasta",
-    "farmersdelight:grilled_salmon",
-    "brewinandchewin:kippers",
-    "gofish:grilled_blackstone_trout",
-    "gofish:grilled_blackstone_deluxe",
-    "gofish:baked_endfish",
-    "gofish:endfish_and_chorus",
-    "gofish:chorus_cod",
-    "gofish:smoked_cloudy_crab",
-    "gofish:baked_carrot_carp",
-    "gofish:portal_puffer",
-    "gofish:omega_floater",
-    "gofish:dragonfish",
-    "gofish:aquatic_astral_stew",
-    "gofish:steamed_bass",
-    "gofish:blizzard_bass",
-    "farmersrespite:tea_curry",
-    "farmersrespite:black_cod",
-    "farmersrespite:blazing_chili",
-    "beachparty:raw_mussel_meat",
-    "beachparty:cooked_mussel_meat",
-    "candlelight:bolognese",
-    "candlelight:chicken_teriyaki",
-    "candlelight:lettuce_salad",
-    "candlelight:beef_tartare",
-    "candlelight:cooked_beef",
-    "candlelight:chicken_alfredo",
-    "candlelight:lettuce_beef",
-    "candlelight:salmon_wine",
-    "candlelight:pork_ribs",
-    "candlelight:pasta_bolognese",
-    "candlelight:fricasse",
-    "candlelight:chicken",
-    "candlelight:lasagne",
-    "candlelight:roastbeef_carrots",
-    "candlelight:beef_wellington",
-    "minecraft:honey_bottle"
-  ]
+    "replace": false,
+    "values": [
+        "minecraft:cooked_chicken",
+        "minecraft:cooked_cod",
+        "minecraft:cooked_mutton",
+        "minecraft:cooked_porkchop",
+        "minecraft:cooked_rabbit",
+        "minecraft:cooked_salmon",
+        "minecraft:pufferfish",
+        "minecraft:rabbit_stew",
+        "minecraft:beef",
+        "minecraft:chicken",
+        "minecraft:cod",
+        "minecraft:mutton",
+        "minecraft:porkchop",
+        "minecraft:salmon",
+        "minecraft:rotten_flesh",
+        "minecraft:spider_eye",
+        "minecraft:cooked_beef",
+        "minecraft:tropical_fish",
+        "minecraft:rabbit",
+        {
+            "id": "bakery:sandwich",
+            "required": false
+        },
+        {
+            "id": "beachparty:raw_mussel_meat",
+            "required": false
+        },
+        {
+            "id": "beachparty:cooked_mussel_meat",
+            "required": false
+        },
+        {
+            "id": "brewinandchewin:jerky",
+            "required": false
+        },
+        {
+            "id": "brewinandchewin:kippers",
+            "required": false
+        },
+        {
+            "id": "brewinandchewin:fiery_fondue",
+            "required": false
+        },
+        {
+            "id": "brewinandchewin:scarlet_pierogies",
+            "required": false
+        },
+        {
+            "id": "brewinandchewin:horror_lasagna",
+            "required": false
+        },
+        {
+            "id": "brewinandchewin:pizza_slice",
+            "required": false
+        },
+        {
+            "id": "brewinandchewin:ham_and_cheese_sandwich",
+            "required": false
+        },
+        {
+            "id": "candlelight:bolognese",
+            "required": false
+        },
+        {
+            "id": "candlelight:chicken_teriyaki",
+            "required": false
+        },
+        {
+            "id": "candlelight:lettuce_salad",
+            "required": false
+        },
+        {
+            "id": "candlelight:beef_tartare",
+            "required": false
+        },
+        {
+            "id": "candlelight:cooked_beef",
+            "required": false
+        },
+        {
+            "id": "candlelight:chicken_alfredo",
+            "required": false
+        },
+        {
+            "id": "candlelight:lettuce_beef",
+            "required": false
+        },
+        {
+            "id": "candlelight:salmon_wine",
+            "required": false
+        },
+        {
+            "id": "candlelight:pork_ribs",
+            "required": false
+        },
+        {
+            "id": "candlelight:pasta_bolognese",
+            "required": false
+        },
+        {
+            "id": "candlelight:fricasse",
+            "required": false
+        },
+        {
+            "id": "candlelight:chicken",
+            "required": false
+        },
+        {
+            "id": "canglelight:lasagne",
+            "required": false
+        },
+        {
+            "id": "candlelight:roastbeef_carrots",
+            "required": false
+        },
+        {
+            "id": "candlelight:tropical_fish_supreme",
+            "required": false
+        },
+        {
+            "id": "corndelight:nachos_bowl",
+            "required": false
+        },
+        {
+            "id": "corndelight:corn_soup",
+            "required": false
+        },
+        {
+            "id": "corndelight:corn_dog",
+            "required": false
+        },
+        {
+            "id": "corndelight:classic_corn_dog",
+            "required": false
+        },
+        {
+            "id": "corndelight:taco",
+            "required": false
+        },
+        {
+            "id": "farmersdelight:minced_beef",
+            "required": false
+        },
+        {
+            "id": "farmersdelight:beef_patty",
+            "required": false
+        },
+        {
+            "id": "farmersdelight:chicken_cuts",
+            "required": false
+        },
+        {
+            "id": "farmersdelight:cooked_chicken_cuts",
+            "required": false
+        },
+        {
+            "id": "farmersdelight:bacon",
+            "required": false
+        },
+        {
+            "id": "farmersdelight:cooked_bacon",
+            "required": false
+        },
+        {
+            "id": "farmersdelight:cod_slice",
+            "required": false
+        },
+        {
+            "id": "farmersdelight:cooked_cod_slice",
+            "required": false
+        },
+        {
+            "id": "farmersdelight:salmon_slice",
+            "required": false
+        },
+        {
+            "id": "farmersdelight:cooked_salmon_slice",
+            "required": false
+        },
+        {
+            "id": "farmersdelight:mutton_chops",
+            "required": false
+        },
+        {
+            "id": "farmersdelight:cooked_mutton_chops",
+            "required": false
+        },
+        {
+            "id": "farmersdelight:ham",
+            "required": false
+        },
+        {
+            "id": "farmersdelight:smoked_ham",
+            "required": false
+        },
+        {
+            "id": "farmersdelight:barbecue_stick",
+            "required": false
+        },
+        {
+            "id": "farmersdelight:chicken_sandwich",
+            "required": false
+        },
+        {
+            "id": "farmersdelight:hamburger",
+            "required": false
+        },
+        {
+            "id": "farmersdelight:bacon_sandwich",
+            "required": false
+        },
+        {
+            "id": "farmersdelight:mutton_wrap",
+            "required": false
+        },
+        {
+            "id": "farmersdelight:dumplings",
+            "required": false
+        },
+        {
+            "id": "farmersdelight:stuffed_potato",
+            "required": false
+        },
+        {
+            "id": "farmersdelight:cabbage_rolls",
+            "required": false
+        },
+        {
+            "id": "farmersdelight:salmon_roll",
+            "required": false
+        },
+        {
+            "id": "farmersdelight:cod_roll",
+            "required": false
+        },
+        {
+            "id": "farmersdelight:beef_stew",
+            "required": false
+        },
+        {
+            "id": "farmersdelight:chicken_soup",
+            "required": false
+        },
+        {
+            "id": "farmersdelight:fish_stew",
+            "required": false
+        },
+        {
+            "id": "farmersdelight:pumpkin_soup",
+            "required": false
+        },
+        {
+            "id": "farmersdelight:baked_cod_stew",
+            "required": false
+        },
+        {
+            "id": "farmersdelight:noodle_soup",
+            "required": false
+        },
+        {
+            "id": "farmersdelight:bacon_and_eggs",
+            "required": false
+        },
+        {
+            "id": "farmersdelight:pasta_with_meatballs",
+            "required": false
+        },
+        {
+            "id": "farmersdelight:pasta_with_mutton_chop",
+            "required": false
+        },
+        {
+            "id": "farmersdelight:roasted_mutton_chops",
+            "required": false
+        },
+        {
+            "id": "farmersdelight:steak_and_potatoes",
+            "required": false
+        },
+        {
+            "id": "farmersdelight:squid_ink_pasta",
+            "required": false
+        },
+        {
+            "id": "farmersdelight:grilled_salmon",
+            "required": false
+        },
+        {
+            "id": "farmersdelight:roast_chicken",
+            "required": false
+        },
+        {
+            "id": "farmersdelight:honey_glazed_ham",
+            "required": false
+        },
+        {
+            "id": "farmersdelight:shepherds_pie",
+            "required": false
+        },
+        {
+            "id": "farmersdelight:dog_food",
+            "required": false
+        },
+        {
+            "id": "farmersrespite:black_cod",
+            "required": false
+        },
+        {
+            "id": "farmersrespite:tea_curry",
+            "required": false
+        },
+        {
+            "id": "farmersrespite:blazing_chili",
+            "required": false
+        },
+        {
+            "id": "gofish:ender_eel",
+            "required": false
+        },
+        {
+            "id": "gofish:icicle_fish",
+            "required": false
+        },
+        {
+            "id": "gofish:lilyfish",
+            "required": false
+        },
+        {
+            "id": "gofish:matrix_fish",
+            "required": false
+        },
+        {
+            "id": "gofish:seaweed_eel",
+            "required": false
+        },
+        {
+            "id": "gofish:slimefish",
+            "required": false
+        },
+        {
+            "id": "gofish:snowball_fish",
+            "required": false
+        },
+        {
+            "id": "gofish:terrafish",
+            "required": false
+        },
+        {
+            "id": "gofish:carrot_carp",
+            "required": false
+        },
+        {
+            "id": "gofish:baked_carrot_carp",
+            "required": false
+        },
+        {
+            "id": "gofish:oakfish",
+            "required": false
+        },
+        {
+            "id": "gofish:charfish",
+            "required": false
+        },
+        {
+            "id": "gofish:blackstone_trout",
+            "required": false
+        },
+        {
+            "id": "gofish:grilled_blackstone_trout",
+            "required": false
+        },
+        {
+            "id": "gofish:grilled_blackstone_deluxe",
+            "required": false
+        },
+        {
+            "id": "gofish:gilded_blackstone_carp",
+            "required": false
+        },
+        {
+            "id": "gofish:smokey_salmon",
+            "required": false
+        },
+        {
+            "id": "gofish:soul_salmon",
+            "required": false
+        },
+        {
+            "id": "gofish:magma_cod",
+            "required": false
+        },
+        {
+            "id": "gofish:basalt_bass",
+            "required": false
+        },
+        {
+            "id": "gofish:obsidian_halibut",
+            "required": false
+        },
+        {
+            "id": "gofish:endfish",
+            "required": false
+        },
+        {
+            "id": "gofish:baked_endfish",
+            "required": false
+        },
+        {
+            "id": "gofish:endfish_and_chorus",
+            "required": false
+        },
+        {
+            "id": "gofish:chorus_cod",
+            "required": false
+        },
+        {
+            "id": "gofish:dragonfish",
+            "required": false
+        },
+        {
+            "id": "gofish:omega_floater",
+            "required": false
+        },
+        {
+            "id": "gofish:portal_puffer",
+            "required": false
+        },
+        {
+            "id": "gofish:lunarfish",
+            "required": false
+        },
+        {
+            "id": "gofish:galaxy_starfish",
+            "required": false
+        },
+        {
+            "id": "gofish:starry_salmon",
+            "required": false
+        },
+        {
+            "id": "gofish:nebula_swordfish",
+            "required": false
+        },
+        {
+            "id": "gofish:aquatic_astral_stew",
+            "required": false
+        },
+        {
+            "id": "gofish:rainy_bass",
+            "required": false
+        },
+        {
+            "id": "gofish:steamed_bass",
+            "required": false
+        },
+        {
+            "id": "gofish:cloudy_crab",
+            "required": false
+        },
+        {
+            "id": "gofish:thundering_bass",
+            "required": false
+        },
+        {
+            "id": "gofish:smoked_cloudy_crab",
+            "required": false
+        },
+        {
+            "id": "gofish:blizzard_bass",
+            "required": false
+        },
+        {
+            "id": "hybrid-aquatic:raw_crab",
+            "required": false
+        },
+        {
+            "id": "hybrid-aquatic:cooked_crab",
+            "required": false
+        },
+        {
+            "id": "hybrid-aquatic:raw_lobster",
+            "required": false
+        },
+        {
+            "id": "hybrid-aquatic:cooked_lobster",
+            "required": false
+        },
+        {
+            "id": "hybrid-aquatic:raw_lobster_tail",
+            "required": false
+        },
+        {
+            "id": "hybrid-aquatic:cooked_lobster_tail",
+            "required": false
+        },
+        {
+            "id": "hybrid-aquatic:cooked_shrimp",
+            "required": false
+        },
+        {
+            "id": "hybrid-aquatic:cooked_crayfish",
+            "required": false
+        },
+        {
+            "id": "hybrid-aquatic:cooked_fish_steak",
+            "required": false
+        },
+        {
+            "id": "hybrid-aquatic:raw_fish_steak",
+            "required": false
+        },
+        {
+            "id": "hybrid-aquatic:cooked_fish_meat",
+            "required": false
+        },
+        {
+            "id": "hybrid-aquatic:raw_fish_meat",
+            "required": false
+        },
+        {
+            "id": "hybrid-aquatic:cooked_tentacle",
+            "required": false
+        },
+        {
+            "id": "hybrid-aquatic:raw_tentacle",
+            "required": false
+        },
+        {
+            "id": "hybrid-aquatic:lionfish",
+            "required": false
+        },
+        {
+            "id": "hybrid-aquatic:mahi",
+            "required": false
+        },
+        {
+            "id": "hybrid-aquatic:tuna",
+            "required": false
+        },
+        {
+            "id": "hybrid-aquatic:opah",
+            "required": false
+        },
+        {
+            "id": "hybrid-aquatic:rockfish",
+            "required": false
+        },
+        {
+            "id": "hybrid-aquatic:blue_spotted_stingray",
+            "required": false
+        },
+        {
+            "id": "hybrid-aquatic:moray_eel",
+            "required": false
+        },
+        {
+            "id": "hybrid-aquatic:needlefish",
+            "required": false
+        },
+        {
+            "id": "hybrid-aquatic:pirahna",
+            "required": false
+        },
+        {
+            "id": "hybrid-aquatic:anglerfish",
+            "required": false
+        },
+        {
+            "id": "hybrid-aquatic:barreleye",
+            "required": false
+        },
+        {
+            "id": "hybrid-aquatic:dragonfish",
+            "required": false
+        },
+        {
+            "id": "hybrid-aquatic:blue_tang",
+            "required": false
+        },
+        {
+            "id": "hybrid-aquatic:surgeonfish_sohal",
+            "required": false
+        },
+        {
+            "id": "hybrid-aquatic:surgeonfish_orangeshoulder",
+            "required": false
+        },
+        {
+            "id": "hybrid-aquatic:clownfish",
+            "required": false
+        },
+        {
+            "id": "hybrid-aquatic:unicorn_fish",
+            "required": false
+        },
+        {
+            "id": "hybrid-aquatic:flashlight_fish",
+            "required": false
+        },
+        {
+            "id": "hybrid-aquatic:gourami",
+            "required": false
+        },
+        {
+            "id": "hybrid-aquatic:betta",
+            "required": false
+        },
+        {
+            "id": "hybrid-aquatic:discus",
+            "required": false
+        },
+        {
+            "id": "hybrid-aquatic:ratfish",
+            "required": false
+        },
+        {
+            "id": "hybrid-aquatic:danio",
+            "required": false
+        },
+        {
+            "id": "hybrid-aquatic:neon_tetra",
+            "required": false
+        },
+        {
+            "id": "hybrid-aquatic:tiger_barb",
+            "required": false
+        },
+        {
+            "id": "hybrid-aquatic:triggerfish",
+            "required": false
+        },
+        {
+            "id": "hybrid-aquatic:oscar",
+            "required": false
+        },
+        {
+            "id": "hybrid-aquatic:cowfish",
+            "required": false
+        },
+        {
+            "id": "mynethersdelight:deviled_egg",
+            "required": false
+        },
+        {
+            "id": "mynethersdelight:strider_slice",
+            "required": false
+        },
+        {
+            "id": "mynethersdelight:minced_strider",
+            "required": false
+        },
+        {
+            "id": "mynethersdelight:bleeding_tartar",
+            "required": false
+        },
+        {
+            "id": "mynethersdelight:strider_with_grilled_fungus",
+            "required": false
+        },
+        {
+            "id": "mynethersdelight:strider_stew",
+            "required": false
+        },
+        {
+            "id": "mynethersdelight:crimson_stroganoff",
+            "required": false
+        },
+        {
+            "id": "mynethersdelight:plate_of_striderloaf",
+            "required": false
+        },
+        {
+            "id": "mynethersdelight:plate_of_cold_striderloaf",
+            "required": false
+        },
+        {
+            "id": "mynethersdelight:hoglin_loin",
+            "required": false
+        },
+        {
+            "id": "mynethersdelight:hoglin_sausage",
+            "required": false
+        },
+        {
+            "id": "mynethersdelight:roasted_sausage",
+            "required": false
+        },
+        {
+            "id": "mynethersdelight:hotdog",
+            "required": false
+        },
+        {
+            "id": "mynethersdelight:sausage_and_potatoes",
+            "required": false
+        },
+        {
+            "id": "mynethersdelight:breakfast_sampler",
+            "required": false
+        },
+        {
+            "id": "mynethersdelight:cooked_loin",
+            "required": false
+        },
+        {
+            "id": "mynethersdelight:blue_tenderloin_steak",
+            "required": false
+        },
+        {
+            "id": "mynethersdelight:fried_hoglin_chop",
+            "required": false
+        },
+        {
+            "id": "mynethersdelight:spicy_noodle_soup",
+            "required": false
+        },
+        {
+            "id": "mynethersdelight:spicy_skewer",
+            "required": false
+        },
+        {
+            "id": "mynethersdelight:chilidog",
+            "required": false
+        },
+        {
+            "id": "mynethersdelight:spicy_hoglin_stew",
+            "required": false
+        },
+        {
+            "id": "mynethersdelight:hot_wings",
+            "required": false
+        },
+        {
+            "id": "mynethersdelight:hot_wings_bucket",
+            "required": false
+        },
+        {
+            "id": "mynethersdelight:spicy_curry",
+            "required": false
+        },
+        {
+            "id": "mynethersdelight:burnt_roll",
+            "required": false
+        },
+        {
+            "id": "mynethersdelight:roast_ear",
+            "required": false
+        },
+        {
+            "id": "mynethersdelight:plate_of_stuffed_hoglin_snout",
+            "required": false
+        },
+        {
+            "id": "mynethersdelight:plate_of_stuffed_hoglin_ham",
+            "required": false
+        },
+        {
+            "id": "mynethersdelight:plate_of_stuffed_hoglin",
+            "required": false
+        },
+        {
+            "id": "naturalist:duck",
+            "required": false
+        },
+        {
+            "id": "naturalist:cooked_duck",
+            "required": false
+        },
+        {
+            "id": "naturalist:venison",
+            "required": false
+        },
+        {
+            "id": "naturalist:cooked_venison",
+            "required": false
+        },
+        {
+            "id": "naturalist:lizard_tail",
+            "required": false
+        },
+        {
+            "id": "naturalist:cooked_lizard_tail",
+            "required": false
+        },
+        {
+            "id": "naturalist:catfish",
+            "required": false
+        },
+        {
+            "id": "naturalist:cooked_catfish",
+            "required": false
+        },
+        {
+            "id": "naturalist:bass",
+            "required": false
+        },
+        {
+            "id": "naturalist:cooked_bass",
+            "required": false
+        },
+        {
+            "id": "netherdepthsupgrade:lava_pufferfish",
+            "required": false
+        },
+        {
+            "id": "netherdepthsupgrade:obsidianfish",
+            "required": false
+        },
+        {
+            "id": "netherdepthsupgrade:searing_cod",
+            "required": false
+        },
+        {
+            "id": "netherdepthsupgrade:bonefish",
+            "required": false
+        },
+        {
+            "id": "netherdepthsupgrade:wither_bonefish",
+            "required": false
+        },
+        {
+            "id": "netherdepthsupgrade:blazefish",
+            "required": false
+        },
+        {
+            "id": "netherdepthsupgrade:magmacubefish",
+            "required": false
+        },
+        {
+            "id": "netherdepthsupgrade:glowdine",
+            "required": false
+        },
+        {
+            "id": "netherdepthsupgrade:fortress_grouper",
+            "required": false
+        },
+        {
+            "id": "netherdepthsupgrade:eyeball_fish",
+            "required": false
+        },
+        {
+            "id": "netherdepthsupgrade:lava_pufferfish_slice",
+            "required": false
+        },
+        {
+            "id": "netherdepthsupgrade:obsidianfish_slice",
+            "required": false
+        },
+        {
+            "id": "netherdepthsupgrade:searing_cod_slice",
+            "required": false
+        },
+        {
+            "id": "netherdepthsupgrade:blazefish_slice",
+            "required": false
+        },
+        {
+            "id": "netherdepthsupgrade:magmacubefish_slice",
+            "required": false
+        },
+        {
+            "id": "netherdepthsupgrade:glowdine_slice",
+            "required": false
+        },
+        {
+            "id": "netherdepthsupgrade:soulsucker_slice",
+            "required": false
+        },
+        {
+            "id": "netherdepthsupgrade:cooked_lava_pufferfish_slice",
+            "required": false
+        },
+        {
+            "id": "netherdepthsupgrade:cooked_obsidianfish_slice",
+            "required": false
+        },
+        {
+            "id": "netherdepthsupgrade:cooked_magmacubefish_slice",
+            "required": false
+        },
+        {
+            "id": "netherdepthsupgrade:cooked_glowdine_slice",
+            "required": false
+        },
+        {
+            "id": "netherdepthsupgrade:cooked_soulsucker_slice",
+            "required": false
+        },
+        {
+            "id": "netherdepthsupgrade:lava_pufferfish_roll",
+            "required": false
+        },
+        {
+            "id": "netherdepthsupgrade:obsidianfish_roll",
+            "required": false
+        },
+        {
+            "id": "netherdepthsupgrade:searing_cod_roll",
+            "required": false
+        },
+        {
+            "id": "netherdepthsupgrade:blazefish_roll",
+            "required": false
+        },
+        {
+            "id": "netherdepthsupgrade:magmacubefish_roll",
+            "required": false
+        },
+        {
+            "id": "netherdepthsupgrade:glowdine_roll",
+            "required": false
+        },
+        {
+            "id": "netherdepthsupgrade:soulsucker_roll",
+            "required": false
+        },
+        {
+            "id": "netherdepthsupgrade:grilled_lava_pufferfish",
+            "required": false
+        },
+        {
+            "id": "netherdepthsupgrade:grilled_obsidianfish",
+            "required": false
+        },
+        {
+            "id": "netherdepthsupgrade:grilled_searing_cod",
+            "required": false
+        },
+        {
+            "id": "netherdepthsupgrade:grilled_blazefish",
+            "required": false
+        },
+        {
+            "id": "netherdepthsupgrade:grilled_magmacubefish",
+            "required": false
+        },
+        {
+            "id": "netherdepthsupgrade:grilled_glowdine",
+            "required": false
+        },
+        {
+            "id": "netherdepthsupgrade:grilled_soulsucker",
+            "required": false
+        },
+        {
+            "id": "netherdepthsupgrade:baked_lava_pufferfish_stew",
+            "required": false
+        },
+        {
+            "id": "netherdepthsupgrade:baked_obsidianfish_stew",
+            "required": false
+        },
+        {
+            "id": "netherdepthsupgrade:baked_searing_cod_stew",
+            "required": false
+        },
+        {
+            "id": "netherdepthsupgrade:baked_blazefish_stew",
+            "required": false
+        },
+        {
+            "id": "netherdepthsupgrade:baked_magmacubefish_stew",
+            "required": false
+        },
+        {
+            "id": "netherdepthsupgrade:baked_glowdine_stew",
+            "required": false
+        },
+        {
+            "id": "netherdepthsupgrade:baked_soulsucker_stew",
+            "required": false
+        },
+        {
+            "id": "nethersdelight:raw_stuffed_hoglin",
+            "required": false
+        },
+        {
+            "id": "nethersdelight:hoglin_loin",
+            "required": false
+        },
+        {
+            "id": "nethersdelight:hoglin_sirloin",
+            "required": false
+        },
+        {
+            "id": "nethersdelight:strider_slice",
+            "required": false
+        },
+        {
+            "id": "nethersdelight:ground_strider",
+            "required": false
+        },
+        {
+            "id": "nethersdelight:hoglin_ear",
+            "required": false
+        },
+        {
+            "id": "nethersdelight:warped_moldy_meat",
+            "required": false
+        },
+        {
+            "id": "nethersdelight:grilled_strider",
+            "required": false
+        },
+        {
+            "id": "nethersdelight:strider_moss_stew",
+            "required": false
+        },
+        {
+            "id": "nethersdelight:plate_of_stuffed_hoglin_snout",
+            "required": false
+        },
+        {
+            "id": "nethersdelight:plate_of_stuffed_hoglin_ham",
+            "required": false
+        },
+        {
+            "id": "nethersdelight:plate_of_stuffed_hoglin_roast",
+            "required": false
+        },
+        {
+            "id": "nethersdelight:nether_skewer",
+            "required": false
+        },
+        {
+            "id": "supplementaries:soap",
+            "required": false
+        }
+    ]
 }

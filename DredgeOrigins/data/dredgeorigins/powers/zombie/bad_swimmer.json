@@ -1,9 +1,16 @@
 {
   "name": "Bad Swimmer",
   "description": "You're not very good at swimming. Don't let yourself get too deep.",
-  "type": "origins:modify_swim_speed",
-  "modifier": {
-    "operation": "multiply_total",
-    "value": -0.6
+  "type": "origins:multiple",
+  "swim-debuff": {
+    "type": "origins:modify_swim_speed",
+    "modifier": {
+      "operation": "multiply_total",
+      "value": -0.6
+    }
+  },
+  "conduit-immune": {
+    "type": "origins:effect_immunity",
+    "effect": "minecraft:conduit_power"
   }
 }

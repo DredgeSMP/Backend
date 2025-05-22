@@ -1,0 +1,110 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:honey_bottle",
+        {
+            "id": "beachparty:honey_cocktail",
+            "required": false
+        },
+        {
+            "id": "brewinandchewin:mead",
+            "required": false
+        },
+        {
+            "id": "brewinandchewin:saccharine_rum",
+            "required": false
+        },
+        {
+            "id": "brewinandchewin:pale_jane",
+            "required": false
+        },
+        {
+            "id": "brewinandchewin:pickled_pickles",
+            "required": false
+        },
+        {
+            "id": "candlelight:pork_ribs",
+            "required": false
+        },
+        {
+            "id": "vinery:lilitu_wine",
+            "required": false
+        },
+        {
+            "id": "vinery:solaris_wine",
+            "required": false
+        },
+        {
+            "id": "vinery:bolvar_wine",
+            "required": false
+        },
+        {
+            "id": "vinery:chenet_wine",
+            "required": false
+        },
+        {
+            "id": "vinery:apple_wine",
+            "required": false
+        },
+        {
+            "id": "vinery:mead",
+            "required": false
+        },
+        {
+            "id": "corndelight:nachos_bowl",
+            "required": false
+        },
+        {
+            "id": "corndelight:taco",
+            "required": false
+        },
+        {
+            "id": "farmersdelight:honey_cookie",
+            "required": false
+        },
+        {
+            "id": "farmersdelight:honey_glazed_ham",
+            "required": false
+        },
+        {
+            "id": "farmersrespite:strong_green_tea",
+            "required": false
+        },
+        {
+            "id": "farmersrespite:strong_yellow_tea",
+            "required": false
+        },
+        {
+            "id": "farmersrespite:strong_black_tea",
+            "required": false
+        },
+        {
+            "id": "farmersrespite:strong_rose_hip_tea",
+            "required": false
+        },
+        {
+            "id": "farmersrespite:strong_coffee",
+            "required": false
+        },
+        {
+            "id": "farmersrespite:strong_purulent_tea",
+            "required": false
+        },
+        {
+            "id": "farmersrespite:strong_apple_cider",
+            "required": false
+        },
+        {
+            "id": "farmersrespite:rose_hip_pie_slice",
+            "required": false
+        },
+        {
+            "id": "mynethersdelight:breakfast_sampler",
+            "required": false
+        },
+        {
+            "id": "supplementaries:candy",
+            "required": false
+        }
+    ]
+}

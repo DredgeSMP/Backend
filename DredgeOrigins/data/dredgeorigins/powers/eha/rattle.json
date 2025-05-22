@@ -1,0 +1,12 @@
+{
+    "name": "Rattler",
+    "description": "A soft rattle can be heard from your throat",
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:execute_command",
+        "command": "playsound naturalist:entity.snake.rattle master @a ~ ~ ~"
+    },
+    "key": {
+        "key": "key.origins.primary_active"
+    }
+}

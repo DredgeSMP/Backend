@@ -1,0 +1,24 @@
+{
+    "type": "beachparty:mini_fridge_mixing",
+    "ingredients": [
+        {
+            "fabric:type": "fabric:nbt",
+            "base": {
+                "item": "minecraft:honey_bottle"
+            },
+            "nbt": "{stardustBottle:1}"
+        },
+        {
+            "item": "minecraft:ice"
+        }
+    ],
+    "result": {
+        "item": "farmersdelight:melon_popsicle",
+        "data": {
+            "stardustPopsicle": 1,
+            "display": {
+                "Name": "[{\"text\":\"Stardust Popsicle\",\"italic\":false}]"
+            }
+        }
+    }
+}

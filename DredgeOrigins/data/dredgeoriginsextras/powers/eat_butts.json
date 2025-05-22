@@ -1,0 +1,35 @@
+{
+    "type": "apugli:edible_item",
+    "food_component": {
+        "always_edible": true,
+        "snack": true,
+        "saturation": 0,
+        "hunger": 0,
+        "meat": false
+    },
+    "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": {
+            "tag": "dredgeorigins:butts"
+        }
+    },
+    "entity_action": {
+        "type": "origins:chance",
+        "chance": 0.01,
+        "action": {
+            "type": "origins:apply_effect",
+            "effects": [
+                {
+                    "effect": "minecraft:nausea",
+                    "show_icon": false,
+                    "show_particles": false
+                },
+                {
+                    "effect": "minecraft:poison",
+                    "show_icon": false,
+                    "show_particles": false
+                }
+            ]
+        }
+    }
+}

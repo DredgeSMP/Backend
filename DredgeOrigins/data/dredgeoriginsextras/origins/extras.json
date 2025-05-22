@@ -2,7 +2,12 @@
     "powers": [
         "dredgeoriginsextras:hide_player",
         "dredgeoriginsextras:groan_tube",
+        "dredgeoriginsextras:laser_pointer",
+        "dredgeoriginsextras:eat_butter",
         "dredgeoriginsextras:sit",
-        "dredgeoriginsextras:laser_pointer"
+        "dredgeoriginsextras:sniffer_coat",
+        "dredgeoriginsextras:shear_sniffer",
+        "dredgeorigins:dev/berry_immune",
+        "dredgeoriginsextras:eat_butts"
     ]
   }

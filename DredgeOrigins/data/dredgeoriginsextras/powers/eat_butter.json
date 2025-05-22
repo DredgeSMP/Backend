@@ -1,0 +1,16 @@
+{
+    "type": "apugli:edible_item",
+    "food_component": {
+        "always_edible": true,
+        "snack": true,
+        "saturation": 1,
+        "hunger": 1,
+        "meat": false
+    },
+    "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": {
+            "item": "candlelight:butter"
+        }
+    }
+}

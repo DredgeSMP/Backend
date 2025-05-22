@@ -1,0 +1,107 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:cooked_chicken",
+        "minecraft:chicken",
+        {
+            "id": "bakery:sandwich",
+            "required": false
+        },
+        {
+            "id": "brewinandchewin:jerky",
+            "required": false
+        },
+        {
+            "id": "brewinandchewin:scarlet_pierogies",
+            "required": false
+        },
+        {
+            "id": "candlelight:chicken_teriyaki",
+            "required": false
+        },
+        {
+            "id": "candlelight:lettuce_salad",
+            "required": false
+        },
+        {
+            "id": "candlelight:chicken_alfredo",
+            "required": false
+        },
+        {
+            "id": "candlelight:chicken",
+            "required": false
+        },
+        {
+            "id": "corndelight:nachos_bowl",
+            "required": false
+        },
+        {
+            "id": "corndelight:corn_soup",
+            "required": false
+        },
+        {
+            "id": "corndelight:corn_dog",
+            "required": false
+        },
+        {
+            "id": "corndelight:classic_corn_dog",
+            "required": false
+        },
+        {
+            "id": "corndelight:taco",
+            "required": false
+        },
+        {
+            "id": "farmersdelight:chicken_cuts",
+            "required": false
+        },
+        {
+            "id": "farmersdelight:cooked_chicken_cuts",
+            "required": false
+        },
+        {
+            "id": "farmersdelight:chicken_sandwich",
+            "required": false
+        },
+        {
+            "id": "farmersdelight:dumplings",
+            "required": false
+        },
+        {
+            "id": "farmersdelight:cabbage_rolls",
+            "required": false
+        },
+        {
+            "id": "farmersdelight:chicken_soup",
+            "required": false
+        },
+        {
+            "id": "farmersdelight:roast_chicken",
+            "required": false
+        },
+        {
+            "id": "farmersdelight:dog_food",
+            "required": false
+        },
+        {
+            "id": "farmersrespite:tea_curry",
+            "required": false
+        },
+        {
+            "id": "mynethersdelight:spicy_curry",
+            "required": false
+        },
+        {
+            "id": "mynethersdelight:burnt_roll",
+            "required": false
+        },
+        {
+            "id": "naturalist:duck",
+            "required": false
+        },
+        {
+            "id": "naturalist:cooked_duck",
+            "required": false
+        }
+    ]
+}

@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "c:foods/breads"
+    },
+    {
+      "item": "farmersdelight:beef_patty"
+    },
+    {
+      "item": "farmersdelight:beef_patty"
+    },
+    {
+      "tag": "c:crops/onion"
+    },
+    {
+      "tag": "c:crops/onion"
+    },
+    {
+      "tag": "c:crops/onion"
+    },
+    {
+      "tag": "c:crops/onion"
+    },
+    {
+      "tag": "c:crops/onion"
+    },
+    {
+      "item": "brewinandchewin:flaxen_cheese_wedge"
+    }
+  ],
+  "result": {
+    "item": "farmersdelight:hamburger",
+    "data": {
+      "display": {
+        "Name": "[{\"text\":\"Saturn Burger\",\"italic\":false}]"
+      }
+    }
+  },
+  "show_notification": false
+}

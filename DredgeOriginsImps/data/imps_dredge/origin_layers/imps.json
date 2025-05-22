@@ -11,7 +11,8 @@
                 "imps_dredge:elementalimps/airimp",
                 "imps_dredge:elementalimps/earthimp",
                 "imps_dredge:elementalimps/lavaimp",
-                "imps_dredge:elementalimps/waterimp"
+                "imps_dredge:elementalimps/waterimp",
+                "imps_dredge:elementalimps/bandaids"
             ]
         },
         {
@@ -24,7 +25,8 @@
                 "imps_dredge:elementalimps/airimp",
                 "imps_dredge:elementalimps/earthimp",
                 "imps_dredge:elementalimps/lavaimp",
-                "imps_dredge:elementalimps/waterimp"
+                "imps_dredge:elementalimps/waterimp",
+                "imps_dredge:elementalimps/bandaids"
             ]
         }
     ],

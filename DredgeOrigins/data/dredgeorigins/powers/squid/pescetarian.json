@@ -8,8 +8,15 @@
             {
                 "type": "origins:ingredient",
                 "ingredient": {
-                    "tag": "origins:notbirdfood"
+                    "tag": "origins:meat"
                 }
+            },
+            {
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "tag": "dredgeorigins:food_fish"
+                },
+                "inverted": true
             },
             {
                 "type": "origins:food"

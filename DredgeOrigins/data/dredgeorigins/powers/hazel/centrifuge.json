@@ -1,0 +1,285 @@
+{
+    "name": "Doctor On-The-Go",
+    "description": "A centrifuge in your leg allows you to quickly brew simple remedies for people. Holding a water bottle in your mainhand and an ingredient in your offhand allows you to brew on the go.",
+    "condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:power_active",
+                "power": "dredgeorigins:hazel/power_saving_mode",
+                "inverted": true
+            },
+            {
+                "type": "origins:or",
+                "conditions": [
+                    {
+                        "type": "origins:resource",
+                        "compare_to": 25,
+                        "comparison": ">=",
+                        "resource": "dredgeorigins:hazel/dynamo_power"
+                    },
+                    {
+                        "type": "origins:resource",
+                        "compare_to": 30,
+                        "comparison": ">=",
+                        "resource": "dredgeorigins:hazel/battery_power"
+                    }
+                ]
+            },
+            {
+                "type": "origins:sneaking"
+            },
+            {
+                "type": "origins:equipped_item",
+                "equipment_slot": "offhand",
+                "item_condition": {
+                    "type": "origins:ingredient",
+                    "ingredient": {
+                        "tag": "dredgeorigins:potion_bases"
+                    }
+                }
+            },
+            {
+                "type": "origins:equipped_item",
+                "equipment_slot": "mainhand",
+                "item_condition": {
+                    "type": "origins:and",
+                    "conditions": [
+                        {
+                            "type": "origins:ingredient",
+                            "ingredient": {
+                                "item": "minecraft:potion"
+                            }
+                        },
+                        {
+                            "type": "origins:nbt",
+                            "nbt": "{Potion:\"minecraft:water\"}"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "type": "origins:active_self",
+    "key": "key.use",
+    "hud_render": {
+        "should_render": false
+    },
+    "cooldown": 600,
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:if_else",
+                "condition": {
+                    "type": "origins:resource",
+                    "compare_to": 0,
+                    "comparison": ">",
+                    "resource": "dredgeorigins:hazel/dynamo_power"
+                },
+                "if_action": {
+                    "type": "origins:change_resource",
+                    "change": -25,
+                    "operation": "add",
+                    "resource": "dredgeorigins:hazel/dynamo_power"
+                },
+                "else_action": {
+                    "type": "origins:change_resource",
+                    "change": -25,
+                    "operation": "add",
+                    "resource": "dredgeorigins:hazel/battery_power"
+                }
+            },
+            {
+                "type": "origins:and",
+                "actions": [
+                    {
+                        "type": "origins:play_sound",
+                        "sound": "supplementaries:block.rotate",
+                        "pitch": 2
+                    },
+                    {
+                        "type": "origins:delay",
+                        "action": {
+                            "type": "origins:and",
+                            "actions": [
+                                {
+                                    "type": "origins:modify_inventory",
+                                    "slot": "weapon.mainhand",
+                                    "item_action": {
+                                        "type": "origins:consume"
+                                    }
+                                },
+                                {
+                                    "type": "origins:play_sound",
+                                    "sound": "supplementaries:block.rotate",
+                                    "pitch": 2
+                                },
+                                {
+                                    "type": "origins:delay",
+                                    "action": {
+                                        "type": "origins:and",
+                                        "actions": [
+                                            {
+                                                "type": "origins:play_sound",
+                                                "sound": "supplementaries:block.rotate",
+                                                "pitch": 2
+                                            },
+                                            {
+                                                "type": "origins:delay",
+                                                "action": {
+                                                    "type": "origins:and",
+                                                    "actions": [
+                                                        {
+                                                            "type": "origins:play_sound",
+                                                            "sound": "supplementaries:block.rotate",
+                                                            "pitch": 2
+                                                        },
+                                                        {
+                                                            "type": "origins:delay",
+                                                            "action": {
+                                                                "type": "origins:and",
+                                                                "actions": [
+                                                                    {
+                                                                        "type": "origins:play_sound",
+                                                                        "sound": "supplementaries:block.rotate",
+                                                                        "pitch": 2
+                                                                    },
+                                                                    {
+                                                                        "type": "origins:delay",
+                                                                        "action": {
+                                                                            "type": "origins:and",
+                                                                            "actions": [
+                                                                                {
+                                                                                    "type": "origins:play_sound",
+                                                                                    "sound": "supplementaries:block.rotate",
+                                                                                    "pitch": 2
+                                                                                },
+                                                                                {
+                                                                                    "type": "origins:delay",
+                                                                                    "action": {
+                                                                                        "type": "origins:and",
+                                                                                        "actions": [
+                                                                                            {
+                                                                                                "type": "origins:play_sound",
+                                                                                                "sound": "supplementaries:block.rotate",
+                                                                                                "pitch": 2
+                                                                                            },
+                                                                                            {
+                                                                                                "type": "origins:delay",
+                                                                                                "action": {
+                                                                                                    "type": "origins:and",
+                                                                                                    "actions": [
+                                                                                                        {
+                                                                                                            "type": "origins:play_sound",
+                                                                                                            "pitch": 1.2,
+                                                                                                            "sound": "minecraft:entity.arrow.hit_player"
+                                                                                                        },
+                                                                                                        {
+                                                                                                            "type": "origins:if_else_list",
+                                                                                                            "actions": [
+                                                                                                                {
+                                                                                                                    "condition": {
+                                                                                                                        "type": "origins:equipped_item",
+                                                                                                                        "equipment_slot": "offhand",
+                                                                                                                        "item_condition": {
+                                                                                                                            "type": "origins:ingredient",
+                                                                                                                            "ingredient": {
+                                                                                                                                "item": "minecraft:glistering_melon_slice"
+                                                                                                                            }
+                                                                                                                        }
+                                                                                                                    },
+                                                                                                                    "action": {
+                                                                                                                        "type": "origins:give",
+                                                                                                                        "preferred_slot": "offhand",
+                                                                                                                        "stack": {
+                                                                                                                            "amount": 1,
+                                                                                                                            "item": "minecraft:potion",
+                                                                                                                            "tag": "{Potion:\"minecraft:healing\"}"
+                                                                                                                        }
+                                                                                                                    }
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "condition": {
+                                                                                                                        "type": "origins:equipped_item",
+                                                                                                                        "equipment_slot": "offhand",
+                                                                                                                        "item_condition": {
+                                                                                                                            "type": "origins:ingredient",
+                                                                                                                            "ingredient": {
+                                                                                                                                "item": "minecraft:ghast_tear"
+                                                                                                                            }
+                                                                                                                        }
+                                                                                                                    },
+                                                                                                                    "action": {
+                                                                                                                        "type": "origins:give",
+                                                                                                                        "preferred_slot": "offhand",
+                                                                                                                        "stack": {
+                                                                                                                            "amount": 1,
+                                                                                                                            "item": "minecraft:potion",
+                                                                                                                            "tag": "{Potion:\"minecraft:regeneration\"}"
+                                                                                                                        }
+                                                                                                                    }
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "condition": {
+                                                                                                                        "type": "origins:equipped_item",
+                                                                                                                        "equipment_slot": "offhand",
+                                                                                                                        "item_condition": {
+                                                                                                                            "type": "origins:ingredient",
+                                                                                                                            "ingredient": {
+                                                                                                                                "item": "minecraft:fermented_spider_eye"
+                                                                                                                            }
+                                                                                                                        }
+                                                                                                                    },
+                                                                                                                    "action": {
+                                                                                                                        "type": "origins:give",
+                                                                                                                        "preferred_slot": "offhand",
+                                                                                                                        "stack": {
+                                                                                                                            "amount": 1,
+                                                                                                                            "item": "minecraft:potion",
+                                                                                                                            "tag": "{Potion:\"minecraft:harming\"}"
+                                                                                                                        }
+                                                                                                                    }
+                                                                                                                }
+                                                                                                            ]
+                                                                                                        },
+                                                                                                        {
+                                                                                                            "type": "origins:modify_inventory",
+                                                                                                            "slot": "weapon.offhand",
+                                                                                                            "item_action": {
+                                                                                                                "type": "origins:consume"
+                                                                                                            }
+                                                                                                        }
+                                                                                                    ]
+                                                                                                },
+                                                                                                "ticks": 2
+                                                                                            }
+                                                                                        ]
+                                                                                    },
+                                                                                    "ticks": 2
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        "ticks": 2
+                                                                    }
+                                                                ]
+                                                            },
+                                                            "ticks": 2
+                                                        }
+                                                    ]
+                                                },
+                                                "ticks": 2
+                                            }
+                                        ]
+                                    },
+                                    "ticks": 2
+                                }
+                            ]
+                        },
+                        "ticks": 2
+                    }
+                ]
+            }
+        ]
+    }
+}

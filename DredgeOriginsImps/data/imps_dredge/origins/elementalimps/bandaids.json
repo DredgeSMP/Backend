@@ -1,0 +1,27 @@
+{
+    "name": "Bandaids",
+    "description": "The most warm hearted imp you can meet, and that's saying something",
+    "powers": [
+        "imps_dredge:lavaimp/blastsyou",
+        "imps_dredge:lavaimp/lavameter/lavameter_hud",
+        "imps_dredge:lavaimp/lavameter/lavameter_extinguish",
+        "imps_dredge:lavaimp/lavameter/lavameter_drinklava",
+        "imps_dredge:lavaimp/lavameter/lavameter_preventheatdecrease",
+        "imps_dredge:heatmeter/heatmeter_waterdamage",
+        "imps_dredge:lavaimp/heatmeter_deferred",
+        "imps_dredge:waterdamage",
+        "imps_dredge:raindamage",
+        "imps_dredge:nethercuisine",
+        "moborigins:full_moon",
+        "origins:hotblooded",
+        "origins:burning_wrath",
+        "dredgeorigins:goat/brace",
+        "dredgeorigins:goat/leap",
+        "dredgeorigins:goat/gallop"
+    ],
+    "icon": {
+        "item": "minecraft:blue_orchid"
+    },
+    "impact": 3,
+    "unchoosable": true
+}

@@ -20,13 +20,13 @@
                     {
                         "type": "origins:ingredient",
                         "ingredient": {
-                            "tag": "dredgeorigins:honey"
+                            "tag": "dredgeorigins:food_honey"
                         }
                     },
                     {
                         "type": "origins:ingredient",
                         "ingredient": {
-                            "tag": "dredgeorigins:cheese"
+                            "tag": "dredgeorigins:food_cheese"
                         }
                     }
                 ],

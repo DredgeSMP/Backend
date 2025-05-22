@@ -1,0 +1,54 @@
+{
+    "type": "origins:multiple",
+    "hidden": true,
+    "ambient-item": {
+        "type": "origins:active_self",
+        "entity_action": {
+            "type": "origins:play_sound",
+            "sound": "minecraft:entity.allay.ambient_with_item"
+        },
+        "key": {
+            "key": "key.origins.quinary_active"
+        }
+    },
+    "ambient-no-item": {
+        "type": "origins:active_self",
+        "entity_action": {
+            "type": "origins:play_sound",
+            "sound": "minecraft:entity.allay.ambient_without_item"
+        },
+        "key": {
+            "key": "key.origins.senary_active"
+        }
+    },
+    "item-given": {
+        "type": "origins:active_self",
+        "entity_action": {
+            "type": "origins:play_sound",
+            "sound": "minecraft:entity.allay.item_given"
+        },
+        "key": {
+            "key": "key.origins.septenary_active"
+        }
+    },
+    "item-taken": {
+        "type": "origins:active_self",
+        "entity_action": {
+            "type": "origins:play_sound",
+            "sound": "minecraft:entity.allay.item_taken"
+        },
+        "key": {
+            "key": "key.origins.octonary_active"
+        }
+    },
+    "item-thrown": {
+        "type": "origins:active_self",
+        "entity_action": {
+            "type": "origins:play_sound",
+            "sound": "minecraft:entity.allay.item_thrown"
+        },
+        "key": {
+            "key": "key.origins.nonary_active"
+        }
+    }
+}

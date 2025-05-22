@@ -1,6 +1,6 @@
 {
   "powers": [
-    "moborigins:undead",
+    "dredgeorigins:zombie/undead",
     "moborigins:zombie_hunger",
     "origins:carnivore",
     "dredgeorigins:zombie/strong_fists",
