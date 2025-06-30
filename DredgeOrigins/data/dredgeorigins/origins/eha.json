@@ -4,7 +4,9 @@
     "powers": [
         "dredgeorigins:eha/rattle",
         "dredgeorigins:eha/darkvision",
-        "dredgeorigins:zombie/poison_immunity"
+        "dredgeorigins:zombie/poison_immunity",
+        "dredgeorigins:zombie/undead",
+        "origins:carnivore"
     ],
     "icon": "naturalist:cooked_lizard_tail",
     "impact": 1,
