@@ -1,0 +1,33 @@
+{
+  "type": "origins:multiple",
+  "description": "No fall damage until touching the ground after dismounting.",
+  "no_fall_damage": {
+    "type": "origins:modify_falling",
+    "velocity": 0.08,
+      "_comment": "0.08 is the default falling speed.",
+    "take_fall_damage": false
+  },
+  "revoke_on_land": {
+    "_comment": "i dont know why origins:action_on_land didnt work for me so we're doing it this way, should only be active while being carried so not a lot of people will have this at once",
+
+    "type": "origins:action_over_time",
+    "interval": 2,
+    "entity_action": {
+      "type": "origins:revoke_power",
+      "power": "dredgeorigins:dev/carry_cancel_fall_damage",
+      "source": "apoli:command"
+    },
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:passenger",
+          "inverted": true
+        },
+        {
+          "type": "origins:on_block"
+        }
+      ]
+    }
+  }
+}
