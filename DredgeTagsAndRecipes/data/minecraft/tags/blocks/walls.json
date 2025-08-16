@@ -1,0 +1,9 @@
+{
+    "replace": false,
+    "values": [
+        {
+            "id": "dramaticdoors:tall_macaw_jail_door",
+            "required": false
+        }
+    ]
+}
